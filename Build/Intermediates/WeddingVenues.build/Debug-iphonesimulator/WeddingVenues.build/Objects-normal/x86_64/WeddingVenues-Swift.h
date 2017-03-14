@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreData;
 @import CoreLocation;
 @import GooglePlaces;
 #endif
@@ -140,6 +141,22 @@ SWIFT_CLASS("_TtC13WeddingVenues11AppDelegate")
 @property (nonatomic, strong) NSPersistentContainer * _Nonnull persistentContainer;
 - (void)saveContext;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("Venue")
+@interface Venue : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Venue (SWIFT_EXTENSION(WeddingVenues))
+@property (nonatomic, copy) NSString * _Nullable address;
+@property (nonatomic) double latitude;
+@property (nonatomic) double longitude;
+@property (nonatomic, copy) NSString * _Nullable name;
 @end
 
 @class CLLocationManager;

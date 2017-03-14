@@ -11,6 +11,8 @@ import GoogleMaps
 import GooglePlaces
 
 class ViewController: UIViewController {
+    
+    var person = (name: "Degas House", address: "2306 Esplanade Ave, New Orleans, LA 70119", district: "7th Ward")
 
     @IBOutlet weak var mapView: GMSMapView!
     

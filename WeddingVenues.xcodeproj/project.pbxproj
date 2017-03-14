@@ -549,6 +549,7 @@
 				96FB681C1E778DAA0002C99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96FB681D1E778DAA0002C99C /* Build configuration list for PBXNativeTarget "WeddingVenuesTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +558,7 @@
 				96FB681F1E778DAA0002C99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
