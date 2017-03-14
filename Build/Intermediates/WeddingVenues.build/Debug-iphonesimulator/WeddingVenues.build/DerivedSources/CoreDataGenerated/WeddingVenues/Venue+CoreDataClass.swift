@@ -2,7 +2,7 @@
 //  Venue+CoreDataClass.swift
 //  
 //
-//  Created by Lauren Nicole Roth on 3/13/17.
+//  Created by Lauren Nicole Roth on 3/14/17.
 //
 //  This file was automatically generated and should not be edited.
 //

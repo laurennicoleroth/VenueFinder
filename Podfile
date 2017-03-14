@@ -7,6 +7,7 @@ target 'WeddingVenues' do
 
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'AlecrimCoreData'
 
   target 'WeddingVenuesTests' do
     inherit! :search_paths

@@ -1,0 +1,10 @@
+framework module AlecrimCoreData {
+  umbrella header "AlecrimCoreData-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AlecrimCoreData.Swift {
+    header "AlecrimCoreData-Swift.h"
+}

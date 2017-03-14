@@ -143,8 +143,11 @@ SWIFT_CLASS("_TtC13WeddingVenues11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface NSManagedObjectContext (SWIFT_EXTENSION(WeddingVenues))
+@end
+
 @class NSEntityDescription;
-@class NSManagedObjectContext;
 
 SWIFT_CLASS_NAMED("Venue")
 @interface Venue : NSManagedObject
@@ -157,6 +160,7 @@ SWIFT_CLASS_NAMED("Venue")
 @property (nonatomic) double latitude;
 @property (nonatomic) double longitude;
 @property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) int16_t phone;
 @end
 
 @class CLLocationManager;

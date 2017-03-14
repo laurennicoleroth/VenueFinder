@@ -2,7 +2,7 @@
 //  Venue+CoreDataProperties.swift
 //  
 //
-//  Created by Lauren Nicole Roth on 3/13/17.
+//  Created by Lauren Nicole Roth on 3/14/17.
 //
 //  This file was automatically generated and should not be edited.
 //
@@ -21,5 +21,6 @@ extension Venue {
     @NSManaged public var latitude: Double
     @NSManaged public var longitude: Double
     @NSManaged public var name: String?
+    @NSManaged public var phone: Int16
 
 }

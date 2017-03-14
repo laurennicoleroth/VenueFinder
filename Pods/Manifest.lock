@@ -1,4 +1,5 @@
 PODS:
+  - AlecrimCoreData (5.0)
   - GoogleMaps (2.2.0):
     - GoogleMaps/Maps (= 2.2.0)
   - GoogleMaps/Base (2.2.0)
@@ -8,13 +9,15 @@ PODS:
     - GoogleMaps/Base (= 2.2.0)
 
 DEPENDENCIES:
+  - AlecrimCoreData
   - GoogleMaps
   - GooglePlaces
 
 SPEC CHECKSUMS:
+  AlecrimCoreData: f1251de3630f4d4d3a212e405298084c229cef29
   GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
   GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
 
-PODFILE CHECKSUM: 1016e8a7bc2ca31129226dac976e07b58b8aa823
+PODFILE CHECKSUM: 2372c12838251c01fb2e6103f91f60c920c4f339
 
 COCOAPODS: 1.2.0

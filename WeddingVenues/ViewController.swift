@@ -9,6 +9,7 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import AlecrimCoreData
 
 class ViewController: UIViewController {
     
@@ -28,11 +29,9 @@ class ViewController: UIViewController {
     var searchController: UISearchController?
     var resultView: UITextView?
     
-    var venuePlaces: [GMSPlace] = [] {
-        didSet {
-            addMarkerToMap(place: venuePlaces.last!)
-        }
-    }
+    let venueManager = WeddingVenueManager.sharedInstance
+    
+    var venuePlaces: [GMSPlace] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -147,7 +146,8 @@ extension ViewController: GMSAutocompleteViewControllerDelegate {
         print("Place attributions: \(place.attributions)")
         
         // TODO: Add code to get address components from the selected place.
-        venuePlaces.append(place)
+        let manager = WeddingVenueManager.sharedInstance
+        manager.addVenue(place: place)
         
         // Close the autocomplete widget.
         dismiss(animated: true, completion: nil)

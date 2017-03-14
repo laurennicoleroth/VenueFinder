@@ -1,0 +1,572 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomPersistentStoreDescription"
+provides-nominal:
+- "C15AlecrimCoreData32CustomPersistentStoreDescription"
+provides-member:
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", ""]
+provides-dynamic-lookup:
+- "options"
+- "isReadOnly"
+- "type"
+- "configuration"
+- "setValue"
+- "sqlitePragmas"
+- "shouldMigrateStoreAutomatically"
+- "timeout"
+- "copy"
+- "shouldInferMappingModelAutomatically"
+- "setOption"
+- "shouldAddStoreAsynchronously"
+- "url"
+depends-top-level:
+- "NSMutableDictionary"
+- "PersistentStoreDescription"
+- "AssignmentPrecedence"
+- "TimeInterval"
+- "CastingPrecedence"
+- !private "NSDictionary"
+- "CustomPersistentStoreDescription"
+- !private "NSPersistentStoreTimeoutOption"
+- !private "NSMigratePersistentStoresAutomaticallyOption"
+- !private "NSSQLitePragmasOption"
+- !private "Dictionary"
+- "NSZone"
+- !private "NSInferMappingModelAutomaticallyOption"
+- "NSCopying"
+- "StringLiteralType"
+- "Bool"
+- "String"
+- "URL"
+- !private "??"
+- !private "NSReadOnlyPersistentStoreOption"
+- !private "NSNumber"
+- !private "NSAddStoreAsynchronouslyOption"
+- "NSObject"
+- "NSSQLiteStoreType"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "CustomPersistentStoreDescription"]
+- !private ["Ps9AnyObject", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps9AnyObject", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps9AnyObject", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps9AnyObject", "NSMutableDictionary"]
+- !private ["Ps9AnyObject", "NSNumber"]
+- !private ["Ps9AnyObject", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps9AnyObject", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps9AnyObject", "NSSQLitePragmasOption"]
+- ["Ps9AnyObject", "NSSQLiteStoreType"]
+- ["Ps9AnyObject", "_options"]
+- !private ["Ps9AnyObject", "boolValue"]
+- ["Ps9AnyObject", "configuration"]
+- ["Ps9AnyObject", "copy"]
+- ["Ps9AnyObject", "copyWithZone"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isReadOnly"]
+- ["Ps9AnyObject", "options"]
+- ["Ps9AnyObject", "setOption"]
+- ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "shouldAddStoreAsynchronously"]
+- ["Ps9AnyObject", "shouldInferMappingModelAutomatically"]
+- ["Ps9AnyObject", "shouldMigrateStoreAutomatically"]
+- ["Ps9AnyObject", "sqlitePragmas"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", "timeout"]
+- ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "CustomPersistentStoreDescription"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps7CVarArg", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps7CVarArg", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps7CVarArg", "NSMutableDictionary"]
+- !private ["Ps7CVarArg", "NSNumber"]
+- !private ["Ps7CVarArg", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps7CVarArg", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps7CVarArg", "NSSQLitePragmasOption"]
+- ["Ps7CVarArg", "NSSQLiteStoreType"]
+- !private ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "_options"]
+- !private ["Ps7CVarArg", "boolValue"]
+- ["Ps7CVarArg", "configuration"]
+- ["Ps7CVarArg", "copy"]
+- ["Ps7CVarArg", "copyWithZone"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isReadOnly"]
+- ["Ps7CVarArg", "options"]
+- ["Ps7CVarArg", "setOption"]
+- ["Ps7CVarArg", "setValue"]
+- ["Ps7CVarArg", "shouldAddStoreAsynchronously"]
+- ["Ps7CVarArg", "shouldInferMappingModelAutomatically"]
+- ["Ps7CVarArg", "shouldMigrateStoreAutomatically"]
+- ["Ps7CVarArg", "sqlitePragmas"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "timeout"]
+- ["Ps7CVarArg", "type"]
+- ["Ps7CVarArg", "url"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CustomPersistentStoreDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps28CustomDebugStringConvertible", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps28CustomDebugStringConvertible", "NSMutableDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps28CustomDebugStringConvertible", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSQLitePragmasOption"]
+- ["Ps28CustomDebugStringConvertible", "NSSQLiteStoreType"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "_options"]
+- !private ["Ps28CustomDebugStringConvertible", "boolValue"]
+- ["Ps28CustomDebugStringConvertible", "configuration"]
+- ["Ps28CustomDebugStringConvertible", "copy"]
+- ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isReadOnly"]
+- ["Ps28CustomDebugStringConvertible", "options"]
+- ["Ps28CustomDebugStringConvertible", "setOption"]
+- ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "shouldAddStoreAsynchronously"]
+- ["Ps28CustomDebugStringConvertible", "shouldInferMappingModelAutomatically"]
+- ["Ps28CustomDebugStringConvertible", "shouldMigrateStoreAutomatically"]
+- ["Ps28CustomDebugStringConvertible", "sqlitePragmas"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "timeout"]
+- ["Ps28CustomDebugStringConvertible", "type"]
+- ["Ps28CustomDebugStringConvertible", "url"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "Bool"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "CustomPersistentStoreDescription"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSAddStoreAsynchronouslyOption"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSDictionary"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSInferMappingModelAutomaticallyOption"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSMutableDictionary"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSNumber"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSObject"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSPersistentStoreTimeoutOption"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSReadOnlyPersistentStoreOption"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSSQLitePragmasOption"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSSQLiteStoreType"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "NSZone"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "String"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "TimeInterval"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "URL"]
+- !private ["C15AlecrimCoreData32CustomPersistentStoreDescription", "_options"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "configuration"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "copy"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "copyWithZone"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "deinit"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "init"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "isReadOnly"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "options"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "setOption"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "setValue"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "shouldAddStoreAsynchronously"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "shouldInferMappingModelAutomatically"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "shouldMigrateStoreAutomatically"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "sqlitePragmas"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "timeout"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "type"]
+- ["C15AlecrimCoreData32CustomPersistentStoreDescription", "url"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "copy"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CustomPersistentStoreDescription"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps23CustomStringConvertible", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps23CustomStringConvertible", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps23CustomStringConvertible", "NSMutableDictionary"]
+- !private ["Ps23CustomStringConvertible", "NSNumber"]
+- !private ["Ps23CustomStringConvertible", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps23CustomStringConvertible", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps23CustomStringConvertible", "NSSQLitePragmasOption"]
+- ["Ps23CustomStringConvertible", "NSSQLiteStoreType"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "_options"]
+- !private ["Ps23CustomStringConvertible", "boolValue"]
+- ["Ps23CustomStringConvertible", "configuration"]
+- ["Ps23CustomStringConvertible", "copy"]
+- ["Ps23CustomStringConvertible", "copyWithZone"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isReadOnly"]
+- ["Ps23CustomStringConvertible", "options"]
+- ["Ps23CustomStringConvertible", "setOption"]
+- ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "shouldAddStoreAsynchronously"]
+- ["Ps23CustomStringConvertible", "shouldInferMappingModelAutomatically"]
+- ["Ps23CustomStringConvertible", "shouldMigrateStoreAutomatically"]
+- ["Ps23CustomStringConvertible", "sqlitePragmas"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "timeout"]
+- ["Ps23CustomStringConvertible", "type"]
+- ["Ps23CustomStringConvertible", "url"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CustomPersistentStoreDescription"]
+- !private ["Ps9Equatable", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps9Equatable", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps9Equatable", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps9Equatable", "NSMutableDictionary"]
+- !private ["Ps9Equatable", "NSNumber"]
+- !private ["Ps9Equatable", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps9Equatable", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps9Equatable", "NSSQLitePragmasOption"]
+- ["Ps9Equatable", "NSSQLiteStoreType"]
+- ["Ps9Equatable", "_options"]
+- !private ["Ps9Equatable", "boolValue"]
+- ["Ps9Equatable", "configuration"]
+- ["Ps9Equatable", "copy"]
+- ["Ps9Equatable", "copyWithZone"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isReadOnly"]
+- ["Ps9Equatable", "options"]
+- ["Ps9Equatable", "setOption"]
+- ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "shouldAddStoreAsynchronously"]
+- ["Ps9Equatable", "shouldInferMappingModelAutomatically"]
+- ["Ps9Equatable", "shouldMigrateStoreAutomatically"]
+- ["Ps9Equatable", "sqlitePragmas"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "timeout"]
+- ["Ps9Equatable", "type"]
+- ["Ps9Equatable", "url"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "boolValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "copy"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "boolValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "boolValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CustomPersistentStoreDescription"]
+- !private ["Ps8Hashable", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps8Hashable", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps8Hashable", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps8Hashable", "NSMutableDictionary"]
+- !private ["Ps8Hashable", "NSNumber"]
+- !private ["Ps8Hashable", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps8Hashable", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps8Hashable", "NSSQLitePragmasOption"]
+- ["Ps8Hashable", "NSSQLiteStoreType"]
+- ["Ps8Hashable", "_options"]
+- !private ["Ps8Hashable", "boolValue"]
+- ["Ps8Hashable", "configuration"]
+- ["Ps8Hashable", "copy"]
+- ["Ps8Hashable", "copyWithZone"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isReadOnly"]
+- ["Ps8Hashable", "options"]
+- ["Ps8Hashable", "setOption"]
+- ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "shouldAddStoreAsynchronously"]
+- ["Ps8Hashable", "shouldInferMappingModelAutomatically"]
+- ["Ps8Hashable", "shouldMigrateStoreAutomatically"]
+- ["Ps8Hashable", "sqlitePragmas"]
+- !private ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", "timeout"]
+- ["Ps8Hashable", "type"]
+- ["Ps8Hashable", "url"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "boolValue"]
+- !private ["PSo8NSCoding", "copy"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "CustomPersistentStoreDescription"]
+- !private ["PSo9NSCopying", "NSAddStoreAsynchronouslyOption"]
+- !private ["PSo9NSCopying", "NSInferMappingModelAutomaticallyOption"]
+- !private ["PSo9NSCopying", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["PSo9NSCopying", "NSMutableDictionary"]
+- !private ["PSo9NSCopying", "NSNumber"]
+- !private ["PSo9NSCopying", "NSPersistentStoreTimeoutOption"]
+- !private ["PSo9NSCopying", "NSReadOnlyPersistentStoreOption"]
+- !private ["PSo9NSCopying", "NSSQLitePragmasOption"]
+- ["PSo9NSCopying", "NSSQLiteStoreType"]
+- !private ["PSo9NSCopying", "_options"]
+- !private ["PSo9NSCopying", "boolValue"]
+- ["PSo9NSCopying", "configuration"]
+- ["PSo9NSCopying", "copy"]
+- ["PSo9NSCopying", "copyWithZone"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "isReadOnly"]
+- ["PSo9NSCopying", "options"]
+- ["PSo9NSCopying", "setOption"]
+- ["PSo9NSCopying", "setValue"]
+- ["PSo9NSCopying", "shouldAddStoreAsynchronously"]
+- ["PSo9NSCopying", "shouldInferMappingModelAutomatically"]
+- ["PSo9NSCopying", "shouldMigrateStoreAutomatically"]
+- ["PSo9NSCopying", "sqlitePragmas"]
+- !private ["PSo9NSCopying", "subscript"]
+- ["PSo9NSCopying", "timeout"]
+- ["PSo9NSCopying", "type"]
+- ["PSo9NSCopying", "url"]
+- ["PSo9NSCopying", ""]
+- !private ["CSo12NSDictionary", "copy"]
+- ["CSo12NSDictionary", "deinit"]
+- ["CSo12NSDictionary", "init"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo17NSFastEnumeration", "copy"]
+- ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo20NSFetchRequestResult", "boolValue"]
+- !private ["PSo20NSFetchRequestResult", "copy"]
+- ["PSo20NSFetchRequestResult", "init"]
+- !private ["PSo20NSFetchRequestResult", "subscript"]
+- !private ["PSo16NSMutableCopying", "copy"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo19NSMutableDictionary", "copy"]
+- ["CSo19NSMutableDictionary", "deinit"]
+- ["CSo19NSMutableDictionary", "init"]
+- !private ["CSo19NSMutableDictionary", "subscript"]
+- !private ["CSo8NSNumber", "boolValue"]
+- ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSNumber", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CustomPersistentStoreDescription"]
+- !private ["CSo8NSObject", "NSAddStoreAsynchronouslyOption"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSInferMappingModelAutomaticallyOption"]
+- !private ["CSo8NSObject", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["CSo8NSObject", "NSMutableDictionary"]
+- !private ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "NSObject"]
+- !private ["CSo8NSObject", "NSPersistentStoreTimeoutOption"]
+- !private ["CSo8NSObject", "NSReadOnlyPersistentStoreOption"]
+- !private ["CSo8NSObject", "NSSQLitePragmasOption"]
+- ["CSo8NSObject", "NSSQLiteStoreType"]
+- ["CSo8NSObject", "NSZone"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TimeInterval"]
+- ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "_options"]
+- !private ["CSo8NSObject", "boolValue"]
+- ["CSo8NSObject", "configuration"]
+- ["CSo8NSObject", "copy"]
+- ["CSo8NSObject", "copyWithZone"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isReadOnly"]
+- ["CSo8NSObject", "options"]
+- ["CSo8NSObject", "setOption"]
+- ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "shouldAddStoreAsynchronously"]
+- ["CSo8NSObject", "shouldInferMappingModelAutomatically"]
+- ["CSo8NSObject", "shouldMigrateStoreAutomatically"]
+- ["CSo8NSObject", "sqlitePragmas"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "timeout"]
+- ["CSo8NSObject", "type"]
+- ["CSo8NSObject", "url"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CustomPersistentStoreDescription"]
+- !private ["PSo16NSObjectProtocol", "NSAddStoreAsynchronouslyOption"]
+- !private ["PSo16NSObjectProtocol", "NSInferMappingModelAutomaticallyOption"]
+- !private ["PSo16NSObjectProtocol", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["PSo16NSObjectProtocol", "NSMutableDictionary"]
+- !private ["PSo16NSObjectProtocol", "NSNumber"]
+- !private ["PSo16NSObjectProtocol", "NSPersistentStoreTimeoutOption"]
+- !private ["PSo16NSObjectProtocol", "NSReadOnlyPersistentStoreOption"]
+- !private ["PSo16NSObjectProtocol", "NSSQLitePragmasOption"]
+- ["PSo16NSObjectProtocol", "NSSQLiteStoreType"]
+- ["PSo16NSObjectProtocol", "_options"]
+- !private ["PSo16NSObjectProtocol", "boolValue"]
+- ["PSo16NSObjectProtocol", "configuration"]
+- ["PSo16NSObjectProtocol", "copy"]
+- ["PSo16NSObjectProtocol", "copyWithZone"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isReadOnly"]
+- ["PSo16NSObjectProtocol", "options"]
+- ["PSo16NSObjectProtocol", "setOption"]
+- ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "shouldAddStoreAsynchronously"]
+- ["PSo16NSObjectProtocol", "shouldInferMappingModelAutomatically"]
+- ["PSo16NSObjectProtocol", "shouldMigrateStoreAutomatically"]
+- ["PSo16NSObjectProtocol", "sqlitePragmas"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "timeout"]
+- ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", "url"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "boolValue"]
+- !private ["PSo14NSSecureCoding", "copy"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- ["CSo8NSString", "init"]
+- !private ["CSo7NSValue", "boolValue"]
+- !private ["CSo7NSValue", "init"]
+- ["Sq", "deinit"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "CustomPersistentStoreDescription"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSAddStoreAsynchronouslyOption"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSInferMappingModelAutomaticallyOption"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "NSMutableDictionary"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSNumber"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSPersistentStoreTimeoutOption"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSReadOnlyPersistentStoreOption"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "NSSQLitePragmasOption"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "NSSQLiteStoreType"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "_options"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "configuration"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "copy"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "copyWithZone"]
+- !private ["P15AlecrimCoreData26PersistentStoreDescription", "init"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "isReadOnly"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "options"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "setOption"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "setValue"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "shouldAddStoreAsynchronously"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "shouldInferMappingModelAutomatically"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "shouldMigrateStoreAutomatically"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "sqlitePragmas"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "timeout"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "type"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", "url"]
+- ["P15AlecrimCoreData26PersistentStoreDescription", ""]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "copy"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["P15AlecrimCoreData14StringProtocol", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["V10Foundation3URL", "deinit"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "boolValue"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CustomPersistentStoreDescription"]
+- !private ["Ps9_Hashable", "NSAddStoreAsynchronouslyOption"]
+- !private ["Ps9_Hashable", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps9_Hashable", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["Ps9_Hashable", "NSMutableDictionary"]
+- !private ["Ps9_Hashable", "NSNumber"]
+- !private ["Ps9_Hashable", "NSPersistentStoreTimeoutOption"]
+- !private ["Ps9_Hashable", "NSReadOnlyPersistentStoreOption"]
+- !private ["Ps9_Hashable", "NSSQLitePragmasOption"]
+- ["Ps9_Hashable", "NSSQLiteStoreType"]
+- ["Ps9_Hashable", "_options"]
+- !private ["Ps9_Hashable", "boolValue"]
+- ["Ps9_Hashable", "configuration"]
+- ["Ps9_Hashable", "copy"]
+- ["Ps9_Hashable", "copyWithZone"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isReadOnly"]
+- ["Ps9_Hashable", "options"]
+- ["Ps9_Hashable", "setOption"]
+- ["Ps9_Hashable", "setValue"]
+- ["Ps9_Hashable", "shouldAddStoreAsynchronously"]
+- ["Ps9_Hashable", "shouldInferMappingModelAutomatically"]
+- ["Ps9_Hashable", "shouldMigrateStoreAutomatically"]
+- ["Ps9_Hashable", "sqlitePragmas"]
+- !private ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", "timeout"]
+- ["Ps9_Hashable", "type"]
+- ["Ps9_Hashable", "url"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "C15AlecrimCoreData32CustomPersistentStoreDescription"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo12NSDictionary"
+- "PSo17NSFastEnumeration"
+- "PSo20NSFetchRequestResult"
+- "PSo16NSMutableCopying"
+- "CSo19NSMutableDictionary"
+- "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo7NSValue"
+- "Sq"
+- "P15AlecrimCoreData26PersistentStoreDescription"
+- "Ps8Sequence"
+- "SS"
+- "P15AlecrimCoreData14StringProtocol"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "V10Foundation3URL"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/Target Support Files/AlecrimCoreData/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlecrimCoreData.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "9f544dec2a44a67c2b7b0cfc6bbaf2fa"

@@ -1,0 +1,387 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo15NSManagedObject", ""]
+- ["CSo15NSManagedObject", "inContext"]
+- ["CSo15NSManagedObject", "delete"]
+- ["CSo15NSManagedObject", "refresh"]
+- ["CSo15NSManagedObject", "isIn"]
+provides-dynamic-lookup:
+- "inContext"
+- "delete"
+- "isIn"
+- "refresh"
+depends-top-level:
+- "NSManagedObjectContext"
+- "NSComparisonPredicate"
+- !private "unsafeBitCast"
+- !private "==="
+- "Set"
+- !private "Array"
+- !private "NSExpression"
+- "Bool"
+- !private "StringLiteralType"
+- "BooleanLiteralType"
+- "NSManagedObject"
+depends-member:
+- !private ["Ps9AnyObject", "NSComparisonPredicate"]
+- !private ["Ps9AnyObject", "NSExpression"]
+- ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "existingObject"]
+- ["Ps9AnyObject", "inContext"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isIn"]
+- !private ["Ps9AnyObject", "isTemporaryID"]
+- !private ["Ps9AnyObject", "managedObjectContext"]
+- !private ["Ps9AnyObject", "objectID"]
+- !private ["Ps9AnyObject", "obtainPermanentIDs"]
+- ["Ps9AnyObject", "refresh"]
+- !private ["Ps9AnyObject", "unsafeBitCast"]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "NSComparisonPredicate"]
+- !private ["Ps7CVarArg", "NSExpression"]
+- ["Ps7CVarArg", "delete"]
+- !private ["Ps7CVarArg", "existingObject"]
+- ["Ps7CVarArg", "inContext"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isIn"]
+- !private ["Ps7CVarArg", "isTemporaryID"]
+- !private ["Ps7CVarArg", "managedObjectContext"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "objectID"]
+- !private ["Ps7CVarArg", "obtainPermanentIDs"]
+- ["Ps7CVarArg", "refresh"]
+- !private ["Ps7CVarArg", "unsafeBitCast"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "NSComparisonPredicate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSExpression"]
+- ["Ps28CustomDebugStringConvertible", "delete"]
+- !private ["Ps28CustomDebugStringConvertible", "existingObject"]
+- ["Ps28CustomDebugStringConvertible", "inContext"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isIn"]
+- !private ["Ps28CustomDebugStringConvertible", "isTemporaryID"]
+- !private ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "objectID"]
+- !private ["Ps28CustomDebugStringConvertible", "obtainPermanentIDs"]
+- ["Ps28CustomDebugStringConvertible", "refresh"]
+- !private ["Ps28CustomDebugStringConvertible", "unsafeBitCast"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "NSComparisonPredicate"]
+- !private ["Ps23CustomStringConvertible", "NSExpression"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "delete"]
+- !private ["Ps23CustomStringConvertible", "existingObject"]
+- ["Ps23CustomStringConvertible", "inContext"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isIn"]
+- !private ["Ps23CustomStringConvertible", "isTemporaryID"]
+- !private ["Ps23CustomStringConvertible", "managedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "objectID"]
+- !private ["Ps23CustomStringConvertible", "obtainPermanentIDs"]
+- ["Ps23CustomStringConvertible", "refresh"]
+- !private ["Ps23CustomStringConvertible", "unsafeBitCast"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "NSComparisonPredicate"]
+- !private ["Ps9Equatable", "NSExpression"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "direct"]
+- !private ["Ps9Equatable", "existingObject"]
+- !private ["Ps9Equatable", "in"]
+- ["Ps9Equatable", "inContext"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isIn"]
+- !private ["Ps9Equatable", "isTemporaryID"]
+- !private ["Ps9Equatable", "managedObjectContext"]
+- !private ["Ps9Equatable", "map"]
+- !private ["Ps9Equatable", "objectID"]
+- !private ["Ps9Equatable", "obtainPermanentIDs"]
+- ["Ps9Equatable", "refresh"]
+- !private ["Ps9Equatable", "unsafeBitCast"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Iterator"]
+- !private ["Ps8Hashable", "NSComparisonPredicate"]
+- !private ["Ps8Hashable", "NSExpression"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "delete"]
+- !private ["Ps8Hashable", "direct"]
+- !private ["Ps8Hashable", "existingObject"]
+- !private ["Ps8Hashable", "in"]
+- ["Ps8Hashable", "inContext"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isIn"]
+- !private ["Ps8Hashable", "isTemporaryID"]
+- !private ["Ps8Hashable", "managedObjectContext"]
+- !private ["Ps8Hashable", "map"]
+- !private ["Ps8Hashable", "objectID"]
+- !private ["Ps8Hashable", "obtainPermanentIDs"]
+- ["Ps8Hashable", "refresh"]
+- !private ["Ps8Hashable", "unsafeBitCast"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "map"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["OCSo21NSComparisonPredicate8Modifier", "deinit"]
+- !private ["OCSo21NSComparisonPredicate8Modifier", "direct"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "delete"]
+- !private ["PSo8NSCoding", "existingObject"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "obtainPermanentIDs"]
+- !private ["PSo8NSCoding", "refresh"]
+- ["CSo21NSComparisonPredicate", "deinit"]
+- !private ["CSo21NSComparisonPredicate", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isTemporaryID"]
+- ["CSo12NSExpression", "deinit"]
+- !private ["CSo12NSExpression", "init"]
+- !private ["PSo20NSFetchRequestResult", "NSComparisonPredicate"]
+- !private ["PSo20NSFetchRequestResult", "NSExpression"]
+- !private ["PSo20NSFetchRequestResult", "isTemporaryID"]
+- !private ["PSo20NSFetchRequestResult", "managedObjectContext"]
+- !private ["PSo20NSFetchRequestResult", "objectID"]
+- !private ["PSo20NSFetchRequestResult", "unsafeBitCast"]
+- !private ["PSo9NSLocking", "delete"]
+- !private ["PSo9NSLocking", "existingObject"]
+- !private ["PSo9NSLocking", "obtainPermanentIDs"]
+- !private ["PSo9NSLocking", "refresh"]
+- ["CSo15NSManagedObject", "Bool"]
+- ["CSo15NSManagedObject", "NSComparisonPredicate"]
+- !private ["CSo15NSManagedObject", "NSExpression"]
+- ["CSo15NSManagedObject", "NSManagedObject"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- ["CSo15NSManagedObject", "Set"]
+- ["CSo15NSManagedObject", "deinit"]
+- ["CSo15NSManagedObject", "delete"]
+- ["CSo15NSManagedObject", "inContext"]
+- ["CSo15NSManagedObject", "isIn"]
+- !private ["CSo15NSManagedObject", "managedObjectContext"]
+- !private ["CSo15NSManagedObject", "objectID"]
+- ["CSo15NSManagedObject", "refresh"]
+- !private ["CSo15NSManagedObject", "unsafeBitCast"]
+- ["CSo22NSManagedObjectContext", "deinit"]
+- !private ["CSo22NSManagedObjectContext", "delete"]
+- !private ["CSo22NSManagedObjectContext", "existingObject"]
+- !private ["CSo22NSManagedObjectContext", "obtainPermanentIDs"]
+- !private ["CSo22NSManagedObjectContext", "refresh"]
+- ["CSo17NSManagedObjectID", "deinit"]
+- !private ["CSo17NSManagedObjectID", "isTemporaryID"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "NSComparisonPredicate"]
+- !private ["CSo8NSObject", "NSExpression"]
+- ["CSo8NSObject", "NSManagedObject"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "delete"]
+- !private ["CSo8NSObject", "existingObject"]
+- ["CSo8NSObject", "inContext"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isIn"]
+- !private ["CSo8NSObject", "isTemporaryID"]
+- !private ["CSo8NSObject", "managedObjectContext"]
+- !private ["CSo8NSObject", "objectID"]
+- !private ["CSo8NSObject", "obtainPermanentIDs"]
+- ["CSo8NSObject", "refresh"]
+- !private ["CSo8NSObject", "unsafeBitCast"]
+- !private ["PSo16NSObjectProtocol", "NSComparisonPredicate"]
+- !private ["PSo16NSObjectProtocol", "NSExpression"]
+- ["PSo16NSObjectProtocol", "delete"]
+- !private ["PSo16NSObjectProtocol", "existingObject"]
+- ["PSo16NSObjectProtocol", "inContext"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isIn"]
+- !private ["PSo16NSObjectProtocol", "isTemporaryID"]
+- !private ["PSo16NSObjectProtocol", "managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "objectID"]
+- !private ["PSo16NSObjectProtocol", "obtainPermanentIDs"]
+- ["PSo16NSObjectProtocol", "refresh"]
+- !private ["PSo16NSObjectProtocol", "unsafeBitCast"]
+- !private ["CSo11NSPredicate", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["OCSo21NSComparisonPredicate8Operator", "deinit"]
+- !private ["OCSo21NSComparisonPredicate8Operator", "in"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- !private ["VCSo21NSComparisonPredicate7Options", "Element"]
+- ["VCSo21NSComparisonPredicate7Options", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "direct"]
+- !private ["Ps16RawRepresentable", "in"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Vs3Set", "Iterator"]
+- ["Vs3Set", "deinit"]
+- !private ["Vs3Set", "map"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "Iterator"]
+- !private ["Ps10SetAlgebra", "map"]
+- !private ["Vs11SetIterator", "Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["P15AlecrimCoreData14StringProtocol", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Iterator"]
+- !private ["Ps9_Hashable", "NSComparisonPredicate"]
+- !private ["Ps9_Hashable", "NSExpression"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "delete"]
+- !private ["Ps9_Hashable", "direct"]
+- !private ["Ps9_Hashable", "existingObject"]
+- !private ["Ps9_Hashable", "in"]
+- ["Ps9_Hashable", "inContext"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isIn"]
+- !private ["Ps9_Hashable", "isTemporaryID"]
+- !private ["Ps9_Hashable", "managedObjectContext"]
+- !private ["Ps9_Hashable", "map"]
+- !private ["Ps9_Hashable", "objectID"]
+- !private ["Ps9_Hashable", "obtainPermanentIDs"]
+- ["Ps9_Hashable", "refresh"]
+- !private ["Ps9_Hashable", "unsafeBitCast"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "OCSo21NSComparisonPredicate8Modifier"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- "CSo21NSComparisonPredicate"
+- !private "PSo9NSCopying"
+- "CSo12NSExpression"
+- !private "PSo20NSFetchRequestResult"
+- !private "PSo9NSLocking"
+- "CSo15NSManagedObject"
+- "CSo22NSManagedObjectContext"
+- "CSo17NSManagedObjectID"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo11NSPredicate"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "OCSo21NSComparisonPredicate8Operator"
+- !private "Ps9OptionSet"
+- "Sq"
+- "VCSo21NSComparisonPredicate7Options"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs11SetIterator"
+- "SS"
+- !private "P15AlecrimCoreData14StringProtocol"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/Target Support Files/AlecrimCoreData/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlecrimCoreData.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "265cc69deaf311b711d232d12f46c770"

@@ -15,6 +15,8 @@
 		96FB68081E778DAA0002C99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FB68071E778DAA0002C99C /* Assets.xcassets */; };
 		96FB680B1E778DAA0002C99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FB68091E778DAA0002C99C /* LaunchScreen.storyboard */; };
 		96FB68161E778DAA0002C99C /* WeddingVenuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB68151E778DAA0002C99C /* WeddingVenuesTests.swift */; };
+		96FB68231E77A34B0002C99C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB68221E77A34B0002C99C /* CoreDataManager.swift */; };
+		96FB68251E77A37A0002C99C /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB68241E77A37A0002C99C /* Venue.swift */; };
 		C14E5A7F1F11E391C3A55A6E /* Pods_WeddingVenuesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F482CCA45366243AF74C1721 /* Pods_WeddingVenuesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		96FB68111E778DAA0002C99C /* WeddingVenuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingVenuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FB68151E778DAA0002C99C /* WeddingVenuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingVenuesTests.swift; sourceTree = "<group>"; };
 		96FB68171E778DAA0002C99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FB68221E77A34B0002C99C /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		96FB68241E77A37A0002C99C /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		9FC4060AE9F2AC14F4EF6B22 /* Pods-WeddingVenues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues.debug.xcconfig"; sourceTree = "<group>"; };
 		B171CA9CD8D0A3ABF5A77FBA /* Pods-WeddingVenues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenues.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues.release.xcconfig"; sourceTree = "<group>"; };
 		D5D685FE142CFACC75D44C43 /* Pods-WeddingVenuesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenuesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenuesTests/Pods-WeddingVenuesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				96FB68091E778DAA0002C99C /* LaunchScreen.storyboard */,
 				96FB680C1E778DAA0002C99C /* Info.plist */,
 				96FB68041E778DAA0002C99C /* WeddingVenues.xcdatamodeld */,
+				96FB68221E77A34B0002C99C /* CoreDataManager.swift */,
+				96FB68241E77A37A0002C99C /* Venue.swift */,
 			);
 			path = WeddingVenues;
 			sourceTree = "<group>";
@@ -336,7 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96FB68061E778DAA0002C99C /* WeddingVenues.xcdatamodeld in Sources */,
+				96FB68251E77A37A0002C99C /* Venue.swift in Sources */,
 				96FB68001E778DAA0002C99C /* ViewController.swift in Sources */,
+				96FB68231E77A34B0002C99C /* CoreDataManager.swift in Sources */,
 				96FB67FE1E778DAA0002C99C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

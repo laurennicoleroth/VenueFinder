@@ -8,17 +8,20 @@ provides-member:
 - ["C13WeddingVenues5Venue", "latitude"]
 - ["C13WeddingVenues5Venue", "longitude"]
 - ["C13WeddingVenues5Venue", "name"]
+- ["C13WeddingVenues5Venue", "phone"]
 provides-dynamic-lookup:
 - "latitude"
 - "name"
 - "longitude"
+- "phone"
 - "address"
 depends-top-level:
-- "Double"
-- "String"
 - !private "StringLiteralType"
 - "Venue"
 - "NSFetchRequest"
+- "Double"
+- "Int16"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "NSFetchRequest"]
 - ["Ps9AnyObject", "address"]
@@ -27,6 +30,7 @@ depends-member:
 - ["Ps9AnyObject", "latitude"]
 - ["Ps9AnyObject", "longitude"]
 - ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "phone"]
 - !private ["Ps7CVarArg", "NSFetchRequest"]
 - ["Ps7CVarArg", "address"]
 - ["Ps7CVarArg", "fetchRequest"]
@@ -34,6 +38,7 @@ depends-member:
 - ["Ps7CVarArg", "latitude"]
 - ["Ps7CVarArg", "longitude"]
 - ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "phone"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
 - ["Ps28CustomDebugStringConvertible", "address"]
@@ -42,6 +47,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "latitude"]
 - ["Ps28CustomDebugStringConvertible", "longitude"]
 - ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "phone"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
@@ -51,6 +57,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "latitude"]
 - ["Ps23CustomStringConvertible", "longitude"]
 - ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "phone"]
 - !private ["Ps9Equatable", "NSFetchRequest"]
 - ["Ps9Equatable", "address"]
 - ["Ps9Equatable", "fetchRequest"]
@@ -58,6 +65,7 @@ depends-member:
 - ["Ps9Equatable", "latitude"]
 - ["Ps9Equatable", "longitude"]
 - ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "phone"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
@@ -69,6 +77,7 @@ depends-member:
 - ["Ps8Hashable", "latitude"]
 - ["Ps8Hashable", "longitude"]
 - ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "phone"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "init"]
@@ -81,7 +90,9 @@ depends-member:
 - ["PSo20NSFetchRequestResult", "latitude"]
 - ["PSo20NSFetchRequestResult", "longitude"]
 - ["PSo20NSFetchRequestResult", "name"]
+- ["PSo20NSFetchRequestResult", "phone"]
 - ["CSo15NSManagedObject", "Double"]
+- ["CSo15NSManagedObject", "Int16"]
 - ["CSo15NSManagedObject", "NSFetchRequest"]
 - ["CSo15NSManagedObject", "String"]
 - ["CSo15NSManagedObject", "Venue"]
@@ -90,8 +101,10 @@ depends-member:
 - ["CSo15NSManagedObject", "latitude"]
 - ["CSo15NSManagedObject", "longitude"]
 - ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "phone"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int16"]
 - ["CSo8NSObject", "NSFetchRequest"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "Venue"]
@@ -101,6 +114,7 @@ depends-member:
 - ["CSo8NSObject", "latitude"]
 - ["CSo8NSObject", "longitude"]
 - ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "phone"]
 - !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
 - ["PSo16NSObjectProtocol", "address"]
 - ["PSo16NSObjectProtocol", "fetchRequest"]
@@ -108,13 +122,16 @@ depends-member:
 - ["PSo16NSObjectProtocol", "latitude"]
 - ["PSo16NSObjectProtocol", "longitude"]
 - ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "phone"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["SS", "deinit"]
 - !private ["SS", "init"]
+- !private ["P15AlecrimCoreData14StringProtocol", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
 - ["C13WeddingVenues5Venue", "Double"]
+- ["C13WeddingVenues5Venue", "Int16"]
 - ["C13WeddingVenues5Venue", "NSFetchRequest"]
 - ["C13WeddingVenues5Venue", "String"]
 - ["C13WeddingVenues5Venue", "Venue"]
@@ -124,6 +141,7 @@ depends-member:
 - ["C13WeddingVenues5Venue", "latitude"]
 - ["C13WeddingVenues5Venue", "longitude"]
 - ["C13WeddingVenues5Venue", "name"]
+- ["C13WeddingVenues5Venue", "phone"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -136,6 +154,7 @@ depends-member:
 - ["Ps9_Hashable", "latitude"]
 - ["Ps9_Hashable", "longitude"]
 - ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "phone"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -164,6 +183,7 @@ depends-nominal:
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
 - "SS"
+- !private "P15AlecrimCoreData14StringProtocol"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "C13WeddingVenues5Venue"
@@ -178,12 +198,12 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
@@ -250,5 +270,9 @@ depends-external:
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/AlecrimCoreData.swiftmodule/x86_64.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-Swift.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "d344b1c9a0e78ffc13a0100cfd6f4abf"
+interface-hash: "e20215e0e1896ea15edc9cd42da4e749"

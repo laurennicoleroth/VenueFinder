@@ -1,0 +1,610 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataQueryable"
+provides-nominal:
+- "P15AlecrimCoreData17CoreDataQueryable"
+provides-member:
+- ["P15AlecrimCoreData17CoreDataQueryable", ""]
+- ["P15AlecrimCoreData17CoreDataQueryable", "count"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "sum"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "min"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "max"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "avg"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "average"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- !private "NSExpressionDescription"
+- "NSEntityDescription"
+- "Int"
+- !private "UnicodeScalarType"
+- !private "NSFetchRequestResultType"
+- "NSFetchRequestResult"
+- !private "!="
+- !private "NSNotFound"
+- "Attribute"
+- !private "AlecrimCoreDataError"
+- "GenericQueryable"
+- "CoreDataQueryable"
+- "CastingPrecedence"
+- "NSManagedObjectContext"
+- !private "NSExpression"
+- !private "NSDictionary"
+- !private "AssignmentPrecedence"
+- !private "Array"
+- !private "String"
+- "NSFetchRequest"
+depends-member:
+- !private ["O15AlecrimCoreData20AlecrimCoreDataError", "deinit"]
+- !private ["O15AlecrimCoreData20AlecrimCoreDataError", "handleError"]
+- !private ["O15AlecrimCoreData20AlecrimCoreDataError", "unexpectedValue"]
+- !private ["Ps9AnyObject", "attributeType"]
+- !private ["Ps9AnyObject", "attributesByName"]
+- !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "expression"]
+- !private ["Ps9AnyObject", "expressionResultType"]
+- !private ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "propertiesToFetch"]
+- !private ["Ps9AnyObject", "resultType"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["V15AlecrimCoreData9Attribute", "___name"]
+- ["V15AlecrimCoreData9Attribute", "deinit"]
+- !private ["P15AlecrimCoreData17AttributeProtocol", "___name"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "first"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "attributeType"]
+- !private ["Ps7CVarArg", "attributesByName"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "expression"]
+- !private ["Ps7CVarArg", "expressionResultType"]
+- !private ["Ps7CVarArg", "fetch"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "name"]
+- !private ["Ps7CVarArg", "propertiesToFetch"]
+- !private ["Ps7CVarArg", "resultType"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "AlecrimCoreDataError"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "Attribute"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "Element"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "Int"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "NSDictionary"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "NSEntityDescription"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "NSExpression"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "NSExpressionDescription"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "NSFetchRequest"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "NSFetchRequestResult"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "NSFetchRequestResultType"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "NSManagedObjectContext"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "NSNotFound"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "Self"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "String"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "aggregate"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "average"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "avg"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "batchSize"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "context"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "count"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "entityDescription"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "max"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "min"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "sum"]
+- ["P15AlecrimCoreData17CoreDataQueryable", "toFetchRequest"]
+- ["P15AlecrimCoreData17CoreDataQueryable", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "attributeType"]
+- !private ["Ps28CustomDebugStringConvertible", "attributesByName"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "expression"]
+- !private ["Ps28CustomDebugStringConvertible", "expressionResultType"]
+- !private ["Ps28CustomDebugStringConvertible", "fetch"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "propertiesToFetch"]
+- !private ["Ps28CustomDebugStringConvertible", "resultType"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "value"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "attributeType"]
+- !private ["Ps23CustomStringConvertible", "attributesByName"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "expression"]
+- !private ["Ps23CustomStringConvertible", "expressionResultType"]
+- !private ["Ps23CustomStringConvertible", "fetch"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "propertiesToFetch"]
+- !private ["Ps23CustomStringConvertible", "resultType"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["P15AlecrimCoreData10Enumerable", "AlecrimCoreDataError"]
+- ["P15AlecrimCoreData10Enumerable", "Attribute"]
+- ["P15AlecrimCoreData10Enumerable", "Element"]
+- ["P15AlecrimCoreData10Enumerable", "Int"]
+- !private ["P15AlecrimCoreData10Enumerable", "NSDictionary"]
+- ["P15AlecrimCoreData10Enumerable", "NSEntityDescription"]
+- !private ["P15AlecrimCoreData10Enumerable", "NSExpression"]
+- !private ["P15AlecrimCoreData10Enumerable", "NSExpressionDescription"]
+- ["P15AlecrimCoreData10Enumerable", "NSFetchRequest"]
+- ["P15AlecrimCoreData10Enumerable", "NSFetchRequestResult"]
+- !private ["P15AlecrimCoreData10Enumerable", "NSFetchRequestResultType"]
+- ["P15AlecrimCoreData10Enumerable", "NSManagedObjectContext"]
+- !private ["P15AlecrimCoreData10Enumerable", "NSNotFound"]
+- ["P15AlecrimCoreData10Enumerable", "Self"]
+- !private ["P15AlecrimCoreData10Enumerable", "String"]
+- !private ["P15AlecrimCoreData10Enumerable", "aggregate"]
+- ["P15AlecrimCoreData10Enumerable", "batchSize"]
+- ["P15AlecrimCoreData10Enumerable", "context"]
+- ["P15AlecrimCoreData10Enumerable", "entityDescription"]
+- ["P15AlecrimCoreData10Enumerable", "toFetchRequest"]
+- ["P15AlecrimCoreData10Enumerable", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "attributeType"]
+- !private ["Ps9Equatable", "attributesByName"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "dictionaryResultType"]
+- !private ["Ps9Equatable", "expression"]
+- !private ["Ps9Equatable", "expressionResultType"]
+- !private ["Ps9Equatable", "fetch"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "propertiesToFetch"]
+- !private ["Ps9Equatable", "resultType"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "handleError"]
+- !private ["Ps5Error", "unexpectedValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "dictionaryResultType"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "AlecrimCoreDataError"]
+- ["P15AlecrimCoreData16GenericQueryable", "Attribute"]
+- ["P15AlecrimCoreData16GenericQueryable", "Element"]
+- ["P15AlecrimCoreData16GenericQueryable", "Int"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "NSDictionary"]
+- ["P15AlecrimCoreData16GenericQueryable", "NSEntityDescription"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "NSExpression"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "NSExpressionDescription"]
+- ["P15AlecrimCoreData16GenericQueryable", "NSFetchRequest"]
+- ["P15AlecrimCoreData16GenericQueryable", "NSFetchRequestResult"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "NSFetchRequestResultType"]
+- ["P15AlecrimCoreData16GenericQueryable", "NSManagedObjectContext"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "NSNotFound"]
+- ["P15AlecrimCoreData16GenericQueryable", "Self"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "String"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "aggregate"]
+- ["P15AlecrimCoreData16GenericQueryable", "batchSize"]
+- ["P15AlecrimCoreData16GenericQueryable", "context"]
+- ["P15AlecrimCoreData16GenericQueryable", "entityDescription"]
+- ["P15AlecrimCoreData16GenericQueryable", "toFetchRequest"]
+- ["P15AlecrimCoreData16GenericQueryable", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "attributeType"]
+- !private ["Ps8Hashable", "attributesByName"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "expression"]
+- !private ["Ps8Hashable", "expressionResultType"]
+- !private ["Ps8Hashable", "fetch"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "propertiesToFetch"]
+- !private ["Ps8Hashable", "resultType"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["CSo22NSAttributeDescription", "attributeType"]
+- !private ["CSo22NSAttributeDescription", "deinit"]
+- !private ["PSo8NSCoding", "attributeType"]
+- !private ["PSo8NSCoding", "attributesByName"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "expression"]
+- !private ["PSo8NSCoding", "expressionResultType"]
+- !private ["PSo8NSCoding", "fetch"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "name"]
+- !private ["PSo8NSCoding", "propertiesToFetch"]
+- !private ["PSo8NSCoding", "resultType"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo9NSCopying", "attributeType"]
+- !private ["PSo9NSCopying", "attributesByName"]
+- !private ["PSo9NSCopying", "expression"]
+- !private ["PSo9NSCopying", "expressionResultType"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "name"]
+- !private ["PSo9NSCopying", "propertiesToFetch"]
+- !private ["PSo9NSCopying", "resultType"]
+- !private ["PSo9NSCopying", "value"]
+- !private ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "value"]
+- !private ["CSo19NSEntityDescription", "attributesByName"]
+- !private ["CSo19NSEntityDescription", "deinit"]
+- !private ["CSo12NSExpression", "deinit"]
+- !private ["CSo12NSExpression", "init"]
+- !private ["CSo23NSExpressionDescription", "deinit"]
+- !private ["CSo23NSExpressionDescription", "expression"]
+- !private ["CSo23NSExpressionDescription", "expressionResultType"]
+- !private ["CSo23NSExpressionDescription", "init"]
+- !private ["CSo23NSExpressionDescription", "name"]
+- !private ["PSo17NSFastEnumeration", "attributesByName"]
+- !private ["PSo17NSFastEnumeration", "value"]
+- ["CSo14NSFetchRequest", "deinit"]
+- !private ["CSo14NSFetchRequest", "propertiesToFetch"]
+- !private ["CSo14NSFetchRequest", "resultType"]
+- !private ["PSo20NSFetchRequestResult", "value"]
+- !private ["VSC24NSFetchRequestResultType", "deinit"]
+- !private ["VSC24NSFetchRequestResultType", "dictionaryResultType"]
+- !private ["PSo9NSLocking", "count"]
+- !private ["PSo9NSLocking", "fetch"]
+- !private ["CSo22NSManagedObjectContext", "count"]
+- ["CSo22NSManagedObjectContext", "deinit"]
+- !private ["CSo22NSManagedObjectContext", "fetch"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "value"]
+- !private ["CSo8NSObject", "attributeType"]
+- !private ["CSo8NSObject", "attributesByName"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "expression"]
+- !private ["CSo8NSObject", "expressionResultType"]
+- !private ["CSo8NSObject", "fetch"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "propertiesToFetch"]
+- !private ["CSo8NSObject", "resultType"]
+- !private ["CSo8NSObject", "value"]
+- !private ["PSo16NSObjectProtocol", "attributeType"]
+- !private ["PSo16NSObjectProtocol", "attributesByName"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "expression"]
+- !private ["PSo16NSObjectProtocol", "expressionResultType"]
+- !private ["PSo16NSObjectProtocol", "fetch"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "propertiesToFetch"]
+- !private ["PSo16NSObjectProtocol", "resultType"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["CSo24NSPersistentStoreRequest", "propertiesToFetch"]
+- !private ["CSo24NSPersistentStoreRequest", "resultType"]
+- !private ["CSo21NSPropertyDescription", "attributeType"]
+- !private ["CSo21NSPropertyDescription", "expression"]
+- !private ["CSo21NSPropertyDescription", "expressionResultType"]
+- !private ["CSo21NSPropertyDescription", "init"]
+- !private ["CSo21NSPropertyDescription", "name"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "value"]
+- !private ["CSo8NSString", "init"]
+- !private ["P15AlecrimCoreData22NamedAttributeProtocol", "___name"]
+- ["Os5Never", "deinit"]
+- !private ["Ps9OptionSet", "dictionaryResultType"]
+- !private ["Sq", "deinit"]
+- !private ["P15AlecrimCoreData9Queryable", "AlecrimCoreDataError"]
+- ["P15AlecrimCoreData9Queryable", "Attribute"]
+- ["P15AlecrimCoreData9Queryable", "Element"]
+- ["P15AlecrimCoreData9Queryable", "Int"]
+- !private ["P15AlecrimCoreData9Queryable", "NSDictionary"]
+- ["P15AlecrimCoreData9Queryable", "NSEntityDescription"]
+- !private ["P15AlecrimCoreData9Queryable", "NSExpression"]
+- !private ["P15AlecrimCoreData9Queryable", "NSExpressionDescription"]
+- ["P15AlecrimCoreData9Queryable", "NSFetchRequest"]
+- ["P15AlecrimCoreData9Queryable", "NSFetchRequestResult"]
+- !private ["P15AlecrimCoreData9Queryable", "NSFetchRequestResultType"]
+- ["P15AlecrimCoreData9Queryable", "NSManagedObjectContext"]
+- !private ["P15AlecrimCoreData9Queryable", "NSNotFound"]
+- ["P15AlecrimCoreData9Queryable", "Self"]
+- !private ["P15AlecrimCoreData9Queryable", "String"]
+- !private ["P15AlecrimCoreData9Queryable", "aggregate"]
+- ["P15AlecrimCoreData9Queryable", "batchSize"]
+- ["P15AlecrimCoreData9Queryable", "context"]
+- ["P15AlecrimCoreData9Queryable", "entityDescription"]
+- ["P15AlecrimCoreData9Queryable", "toFetchRequest"]
+- ["P15AlecrimCoreData9Queryable", ""]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "first"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "first"]
+- !private ["Ps16RawRepresentable", "dictionaryResultType"]
+- !private ["Ps8Sequence", "AlecrimCoreDataError"]
+- ["Ps8Sequence", "Attribute"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- ["Ps8Sequence", "Int"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "NSDictionary"]
+- ["Ps8Sequence", "NSEntityDescription"]
+- !private ["Ps8Sequence", "NSExpression"]
+- !private ["Ps8Sequence", "NSExpressionDescription"]
+- ["Ps8Sequence", "NSFetchRequest"]
+- ["Ps8Sequence", "NSFetchRequestResult"]
+- !private ["Ps8Sequence", "NSFetchRequestResultType"]
+- ["Ps8Sequence", "NSManagedObjectContext"]
+- !private ["Ps8Sequence", "NSNotFound"]
+- ["Ps8Sequence", "Self"]
+- !private ["Ps8Sequence", "String"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "aggregate"]
+- ["Ps8Sequence", "batchSize"]
+- ["Ps8Sequence", "context"]
+- ["Ps8Sequence", "entityDescription"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Ps8Sequence", "toFetchRequest"]
+- !private ["Ps8Sequence", "value"]
+- ["Ps8Sequence", ""]
+- !private ["Ps10SetAlgebra", "dictionaryResultType"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["P15AlecrimCoreData14StringProtocol", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "attributeType"]
+- !private ["Ps9_Hashable", "attributesByName"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "expression"]
+- !private ["Ps9_Hashable", "expressionResultType"]
+- !private ["Ps9_Hashable", "fetch"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "propertiesToFetch"]
+- !private ["Ps9_Hashable", "resultType"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- !private "O15AlecrimCoreData20AlecrimCoreDataError"
+- !private "Ps9AnyObject"
+- !private "Sa"
+- "V15AlecrimCoreData9Attribute"
+- !private "P15AlecrimCoreData17AttributeProtocol"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "P15AlecrimCoreData17CoreDataQueryable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Sd"
+- "P15AlecrimCoreData10Enumerable"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "P15AlecrimCoreData16GenericQueryable"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "CSo22NSAttributeDescription"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "CSo19NSEntityDescription"
+- !private "CSo12NSExpression"
+- !private "CSo23NSExpressionDescription"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSFetchRequest"
+- !private "PSo20NSFetchRequestResult"
+- !private "VSC24NSFetchRequestResultType"
+- !private "PSo9NSLocking"
+- "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo24NSPersistentStoreRequest"
+- !private "CSo21NSPropertyDescription"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P15AlecrimCoreData22NamedAttributeProtocol"
+- "Os5Never"
+- !private "Ps9OptionSet"
+- !private "Sq"
+- "P15AlecrimCoreData9Queryable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Vs5Slice"
+- "SS"
+- !private "P15AlecrimCoreData14StringProtocol"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/Target Support Files/AlecrimCoreData/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlecrimCoreData.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "e5c7cebe53ee32d952cbbf3e2f16b326"

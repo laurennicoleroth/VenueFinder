@@ -4,6 +4,33 @@
   'roots': [
     {
       'type': 'directory',
+      'name': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlecrimCoreData-Swift.h",
+          'external-contents': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlecrimCoreData-umbrella.h",
+          'external-contents': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/Target Support Files/AlecrimCoreData/AlecrimCoreData-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlecrimCoreData.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/Pods_WeddingVenues.framework/Headers",
       'contents': [
         {

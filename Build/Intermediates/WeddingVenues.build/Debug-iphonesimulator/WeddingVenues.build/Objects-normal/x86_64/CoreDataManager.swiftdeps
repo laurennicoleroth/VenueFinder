@@ -1,0 +1,451 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeddingVenueManager"
+provides-nominal:
+- "C13WeddingVenues19WeddingVenueManager"
+provides-member:
+- ["C13WeddingVenues19WeddingVenueManager", ""]
+- ["CSo22NSManagedObjectContext", ""]
+- ["CSo22NSManagedObjectContext", "venues"]
+provides-dynamic-lookup:
+depends-top-level:
+- "GMSPlace"
+- "AssignmentPrecedence"
+- "Venue"
+- "Table"
+- !private "print"
+- "WeddingVenueManager"
+- "NSManagedObjectContext"
+- "PersistentContainer"
+- "StringLiteralType"
+- "WeddingVenue"
+depends-member:
+- !private ["Vs11AnyIterator", "Element"]
+- ["Ps9AnyObject", "PersistentContainer"]
+- !private ["Ps9AnyObject", "Table"]
+- !private ["Ps9AnyObject", "WeddingVenue"]
+- ["Ps9AnyObject", "WeddingVenueManager"]
+- !private ["Ps9AnyObject", "address"]
+- !private ["Ps9AnyObject", "container"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Ps9AnyObject", "formattedAddress"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "latitude"]
+- !private ["Ps9AnyObject", "longitude"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "venues"]
+- !private ["Ps9AnyObject", "viewContext"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- ["VSC22CLLocationCoordinate2D", "deinit"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Table"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "address"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps7CVarArg", "formattedAddress"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "latitude"]
+- !private ["Ps7CVarArg", "longitude"]
+- !private ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "venues"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "init"]
+- ["Ps10Comparable", "init"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "Element"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "Iterator"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "create"]
+- !private ["P15AlecrimCoreData17CoreDataQueryable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Table"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "address"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "formattedAddress"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "latitude"]
+- !private ["Ps28CustomDebugStringConvertible", "longitude"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "venues"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "append"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Table"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "address"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps23CustomStringConvertible", "formattedAddress"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "latitude"]
+- !private ["Ps23CustomStringConvertible", "longitude"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "venues"]
+- ["Sd", "deinit"]
+- !private ["P15AlecrimCoreData10Enumerable", "Element"]
+- !private ["P15AlecrimCoreData10Enumerable", "Iterator"]
+- !private ["P15AlecrimCoreData10Enumerable", "create"]
+- !private ["P15AlecrimCoreData10Enumerable", "init"]
+- !private ["Ps9Equatable", "Table"]
+- !private ["Ps9Equatable", "address"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps9Equatable", "formattedAddress"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "latitude"]
+- !private ["Ps9Equatable", "longitude"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "venues"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo8GMSPlace", "coordinate"]
+- ["CSo8GMSPlace", "deinit"]
+- !private ["CSo8GMSPlace", "formattedAddress"]
+- !private ["CSo8GMSPlace", "name"]
+- ["C15AlecrimCoreData26GenericPersistentContainer", "init"]
+- !private ["C15AlecrimCoreData26GenericPersistentContainer", "viewContext"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "Element"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "Iterator"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "create"]
+- !private ["P15AlecrimCoreData16GenericQueryable", "init"]
+- !private ["Ps8Hashable", "Table"]
+- !private ["Ps8Hashable", "address"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps8Hashable", "formattedAddress"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "latitude"]
+- !private ["Ps8Hashable", "longitude"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "venues"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["PSo8NSCoding", "Table"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "venues"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo20NSFetchRequestResult", "address"]
+- !private ["PSo20NSFetchRequestResult", "latitude"]
+- !private ["PSo20NSFetchRequestResult", "longitude"]
+- !private ["PSo20NSFetchRequestResult", "name"]
+- !private ["PSo9NSLocking", "Table"]
+- !private ["PSo9NSLocking", "venues"]
+- !private ["CSo15NSManagedObject", "address"]
+- !private ["CSo15NSManagedObject", "latitude"]
+- !private ["CSo15NSManagedObject", "longitude"]
+- !private ["CSo15NSManagedObject", "name"]
+- ["CSo22NSManagedObjectContext", "Table"]
+- ["CSo22NSManagedObjectContext", "Venue"]
+- ["CSo22NSManagedObjectContext", "deinit"]
+- ["CSo22NSManagedObjectContext", "venues"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Table"]
+- ["CSo8NSObject", "Venue"]
+- !private ["CSo8NSObject", "address"]
+- !private ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "formattedAddress"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "latitude"]
+- !private ["CSo8NSObject", "longitude"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "venues"]
+- !private ["PSo16NSObjectProtocol", "Table"]
+- !private ["PSo16NSObjectProtocol", "address"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "formattedAddress"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "latitude"]
+- !private ["PSo16NSObjectProtocol", "longitude"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "venues"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C15AlecrimCoreData19PersistentContainer", "deinit"]
+- ["C15AlecrimCoreData19PersistentContainer", "init"]
+- !private ["C15AlecrimCoreData19PersistentContainer", "viewContext"]
+- !private ["P15AlecrimCoreData9Queryable", "Element"]
+- !private ["P15AlecrimCoreData9Queryable", "Iterator"]
+- !private ["P15AlecrimCoreData9Queryable", "create"]
+- !private ["P15AlecrimCoreData9Queryable", "init"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "create"]
+- !private ["Ps8Sequence", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["P15AlecrimCoreData14StringProtocol", "init"]
+- !private ["V15AlecrimCoreData5Table", "Element"]
+- !private ["V15AlecrimCoreData5Table", "Iterator"]
+- !private ["V15AlecrimCoreData5Table", "create"]
+- ["V15AlecrimCoreData5Table", "deinit"]
+- !private ["V15AlecrimCoreData5Table", "init"]
+- !private ["P15AlecrimCoreData13TableProtocol", "Element"]
+- !private ["P15AlecrimCoreData13TableProtocol", "Iterator"]
+- !private ["P15AlecrimCoreData13TableProtocol", "create"]
+- !private ["P15AlecrimCoreData13TableProtocol", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C13WeddingVenues5Venue", "address"]
+- ["C13WeddingVenues5Venue", "deinit"]
+- !private ["C13WeddingVenues5Venue", "latitude"]
+- !private ["C13WeddingVenues5Venue", "longitude"]
+- !private ["C13WeddingVenues5Venue", "name"]
+- ["C13WeddingVenues12WeddingVenue", "deinit"]
+- !private ["C13WeddingVenues12WeddingVenue", "init"]
+- !private ["C13WeddingVenues12WeddingVenue", "name"]
+- ["C13WeddingVenues19WeddingVenueManager", "GMSPlace"]
+- ["C13WeddingVenues19WeddingVenueManager", "PersistentContainer"]
+- ["C13WeddingVenues19WeddingVenueManager", "WeddingVenue"]
+- ["C13WeddingVenues19WeddingVenueManager", "WeddingVenueManager"]
+- ["C13WeddingVenues19WeddingVenueManager", "addVenue"]
+- ["C13WeddingVenues19WeddingVenueManager", "container"]
+- ["C13WeddingVenues19WeddingVenueManager", "deinit"]
+- ["C13WeddingVenues19WeddingVenueManager", "init"]
+- !private ["C13WeddingVenues19WeddingVenueManager", "print"]
+- ["C13WeddingVenues19WeddingVenueManager", "sharedInstance"]
+- ["C13WeddingVenues19WeddingVenueManager", "weddingVenues"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Table"]
+- !private ["Ps9_Hashable", "address"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps9_Hashable", "formattedAddress"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "latitude"]
+- !private ["Ps9_Hashable", "longitude"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "venues"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "latitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "longitude"]
+depends-nominal:
+- !private "Vs11AnyIterator"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "VSC22CLLocationCoordinate2D"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "P15AlecrimCoreData17CoreDataQueryable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- !private "P15AlecrimCoreData10Enumerable"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo8GMSPlace"
+- "C15AlecrimCoreData26GenericPersistentContainer"
+- !private "P15AlecrimCoreData16GenericQueryable"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo20NSFetchRequestResult"
+- !private "PSo9NSLocking"
+- !private "CSo15NSManagedObject"
+- "CSo22NSManagedObjectContext"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "C15AlecrimCoreData19PersistentContainer"
+- !private "P15AlecrimCoreData9Queryable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- "SS"
+- "P15AlecrimCoreData14StringProtocol"
+- "V15AlecrimCoreData5Table"
+- !private "P15AlecrimCoreData13TableProtocol"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C13WeddingVenues5Venue"
+- "C13WeddingVenues12WeddingVenue"
+- "C13WeddingVenues19WeddingVenueManager"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/AlecrimCoreData.swiftmodule/x86_64.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-Swift.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "7fa4ccabee16c0dcb582eff119362451"

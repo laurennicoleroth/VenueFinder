@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		N1eJNIV/Jcwx7fMK9+3zfSLuGlA=
+		tKFhfJ7tBJpaQ5vpq24g/hAGw6Q=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		0ec6/22mXjm4GXFBUevQyUc1N2k=
+		UYQ7kopiG/Z06VFJtsqhsbnqliA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		yRDZ7c5/fcTq4oX87w/ETGNq4dM=
+		7bfZVfxDn08fL6PNiPewRoB+VP0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +26,19 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		WX4jbFPqxax72twTyQp3SVodcMQ=
+		/Ve5TBv3OqpogOSF9GiqgcFSF2E=
+		</data>
+		<key>Frameworks/AlecrimCoreData.framework/AlecrimCoreData</key>
+		<data>
+		y5z9Uicy44xzhQSjdpmwG7SF2js=
+		</data>
+		<key>Frameworks/AlecrimCoreData.framework/Info.plist</key>
+		<data>
+		jif+wDmIOjBYb0CkSFfyXI1a1vs=
+		</data>
+		<key>Frameworks/AlecrimCoreData.framework/_CodeSignature/CodeResources</key>
+		<data>
+		OmoyjGqQNCRs8Y1LRchv1f/hMDk=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -1199,15 +1211,15 @@
 		</data>
 		<key>WeddingVenues.momd/VersionInfo.plist</key>
 		<data>
-		HDxuLFdjykCe02dxLSOciBWyqLU=
+		dgy/UborT2tQZWdPD/1/4eMBn28=
 		</data>
 		<key>WeddingVenues.momd/WeddingVenues.mom</key>
 		<data>
-		C8SP2EBQStUqy0AFfJa15twaDcc=
+		NGZ16mt6vcMBsFwvBH6zLCVLXdY=
 		</data>
 		<key>WeddingVenues.momd/WeddingVenues.omo</key>
 		<data>
-		BM3Ddtnoy4L+yP9G5ZuhB8dL0cw=
+		l9XIA2CmUYisZUJY2POPtX/D55A=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -1220,11 +1232,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N1eJNIV/Jcwx7fMK9+3zfSLuGlA=
+			tKFhfJ7tBJpaQ5vpq24g/hAGw6Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			GQr977vQ4Uj1Vqm0/nPi1NWS4PtdIXfENPEDNQAupoo=
+			UokqcUdvTdsTEQIoz0iLDuNDsFnJ/sNhj95bhAvvEuQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -1242,22 +1254,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0ec6/22mXjm4GXFBUevQyUc1N2k=
+			UYQ7kopiG/Z06VFJtsqhsbnqliA=
 			</data>
 			<key>hash2</key>
 			<data>
-			T7mOlBESA6bP/afT2JNBLeiszZ7DiMZz/nao7VJPHds=
+			lUPyXWXD7zJC+QfOTvMHs2I363MylPzP4YoRx6a4AHs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yRDZ7c5/fcTq4oX87w/ETGNq4dM=
+			7bfZVfxDn08fL6PNiPewRoB+VP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			m7/v+43KfSiUAZpSTZSV/tI8qLF/EGI8sr3SOWf4wUU=
+			IVUwLqkddVqZnkgB8ZR6wWYLA1m93igCZGXO2v1m2oM=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -1275,11 +1287,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WX4jbFPqxax72twTyQp3SVodcMQ=
+			/Ve5TBv3OqpogOSF9GiqgcFSF2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			a2jfz8k3qODRElPlmO2AMRQIkm1uHPZYTODHRjgEizY=
+			yZkZ1NzPwxupLOqpKH/TfIzKkWP3xjRLMBPrz77qau8=
+			</data>
+		</dict>
+		<key>Frameworks/AlecrimCoreData.framework/AlecrimCoreData</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y5z9Uicy44xzhQSjdpmwG7SF2js=
+			</data>
+			<key>hash2</key>
+			<data>
+			f2kQrZ4aIrxIKfKrhsLVFn20gh6MGSBwP7OZ40Zez8c=
+			</data>
+		</dict>
+		<key>Frameworks/AlecrimCoreData.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jif+wDmIOjBYb0CkSFfyXI1a1vs=
+			</data>
+			<key>hash2</key>
+			<data>
+			JlhVobOlmFVduSdm6uX11C2QgEfGrEzkhRfBOYO7BIg=
+			</data>
+		</dict>
+		<key>Frameworks/AlecrimCoreData.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OmoyjGqQNCRs8Y1LRchv1f/hMDk=
+			</data>
+			<key>hash2</key>
+			<data>
+			jrnBK+FbHPSfqk0+/2ovdNk28JFfYeARytTO03IqSJw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -3480,33 +3525,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HDxuLFdjykCe02dxLSOciBWyqLU=
+			dgy/UborT2tQZWdPD/1/4eMBn28=
 			</data>
 			<key>hash2</key>
 			<data>
-			pujgOCRitmnat5xBsE0yej2+6EUQRXUmIqgpeyQdWLM=
+			sRSupC/oiiItPYsbeWMVpzaPzQ16IVZCWTI8OFq00Ng=
 			</data>
 		</dict>
 		<key>WeddingVenues.momd/WeddingVenues.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C8SP2EBQStUqy0AFfJa15twaDcc=
+			NGZ16mt6vcMBsFwvBH6zLCVLXdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YJ+L+TDd7J4oi9W+uFAlKafj68wvIGRZpDCK9zE5vwI=
+			Y2oj3ZRovSTTx30SYXPp4vkjQGmAxNEe7Dlu/NffL5w=
 			</data>
 		</dict>
 		<key>WeddingVenues.momd/WeddingVenues.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BM3Ddtnoy4L+yP9G5ZuhB8dL0cw=
+			l9XIA2CmUYisZUJY2POPtX/D55A=
 			</data>
 			<key>hash2</key>
 			<data>
-			hEddJfY/Lfl/ayrxaG5JcW2HZ0aWcjTqF2H+9+mF6yA=
+			av9pzG+ohEYZF2KAmAPJ52UYHoYeQllcYSVhwt0mx64=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

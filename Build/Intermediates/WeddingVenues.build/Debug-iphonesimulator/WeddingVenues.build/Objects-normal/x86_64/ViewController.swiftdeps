@@ -6,57 +6,58 @@ provides-nominal:
 provides-member:
 - ["C13WeddingVenues14ViewController", ""]
 provides-dynamic-lookup:
+- "currentLocation"
+- "selectedPlace"
+- "addAVenueTouched"
+- "listLikelyPlaces"
+- "viewDidLoad"
+- "resultsViewController"
 - "didUpdateAutocompletePredictions"
+- "resultView"
+- "wasCancelled"
+- "didRequestAutocompletePredictions"
 - "addMarkerToMap"
-- "startingPoint"
 - "setupMap"
+- "venuePlaces"
+- "locationManager"
+- "locationManager"
+- "locationManager"
+- "locationManager"
 - "searchController"
+- "zoomLevel"
+- "mapView"
+- "startingPoint"
 - "placesClient"
 - "viewController"
 - "viewController"
-- "wasCancelled"
-- "zoomLevel"
-- "viewDidLoad"
-- "locationManager"
-- "locationManager"
-- "locationManager"
-- "locationManager"
-- "listLikelyPlaces"
-- "didRequestAutocompletePredictions"
-- "resultView"
-- "currentLocation"
-- "addAVenueTouched"
-- "resultsViewController"
-- "venuePlaces"
-- "mapView"
-- "selectedPlace"
 depends-top-level:
-- !private "StringLiteralType"
-- "GMSAutocompleteResultsViewController"
-- !private "print"
-- "GMSAutocompleteViewControllerDelegate"
-- "GMSMapView"
+- "StringLiteralType"
 - "GMSAutocompleteViewController"
+- !private "GMSMarker"
 - !private "GMSCameraPosition"
+- "UITextView"
+- "CLLocation"
 - "CLLocationManager"
 - !private "BooleanLiteralType"
-- "CLLocationCoordinate2DMake"
-- "GMSPlacesClient"
-- "UISearchController"
-- !private "kCLLocationAccuracyBest"
 - "Error"
-- !private "UIApplication"
-- "ViewController"
 - "Float"
-- "CLLocation"
+- "ViewController"
+- "UISearchController"
+- "CLAuthorizationStatus"
+- "GMSPlacesClient"
+- "GMSAutocompleteViewControllerDelegate"
+- "UIViewController"
+- !private "kCLLocationAccuracyBest"
+- !private "UIApplication"
+- "CLLocationCoordinate2DMake"
 - "CLLocationManagerDelegate"
 - "AssignmentPrecedence"
-- "GMSPlace"
-- "UIViewController"
-- "UITextView"
-- !private "GMSMarker"
-- "CLAuthorizationStatus"
+- "WeddingVenueManager"
 - !private "GMSAutocompleteFilter"
+- "GMSPlace"
+- "GMSMapView"
+- !private "print"
+- "GMSAutocompleteResultsViewController"
 depends-member:
 - ["Ps9AnyObject", "CLLocationCoordinate2DMake"]
 - ["Ps9AnyObject", "CLLocationManager"]
@@ -66,8 +67,10 @@ depends-member:
 - !private ["Ps9AnyObject", "GMSMarker"]
 - !private ["Ps9AnyObject", "GMSPlacesClient"]
 - !private ["Ps9AnyObject", "UIApplication"]
+- ["Ps9AnyObject", "WeddingVenueManager"]
 - ["Ps9AnyObject", "addAVenueTouched"]
 - ["Ps9AnyObject", "addMarkerToMap"]
+- !private ["Ps9AnyObject", "addVenue"]
 - !private ["Ps9AnyObject", "animate"]
 - !private ["Ps9AnyObject", "attributions"]
 - !private ["Ps9AnyObject", "autocompleteFilter"]
@@ -93,6 +96,7 @@ depends-member:
 - !private ["Ps9AnyObject", "map"]
 - ["Ps9AnyObject", "mapView"]
 - !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "person"]
 - ["Ps9AnyObject", "placesClient"]
 - !private ["Ps9AnyObject", "position"]
 - !private ["Ps9AnyObject", "present"]
@@ -104,11 +108,13 @@ depends-member:
 - ["Ps9AnyObject", "selectedPlace"]
 - ["Ps9AnyObject", "setupMap"]
 - !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "sharedInstance"]
 - !private ["Ps9AnyObject", "startUpdatingLocation"]
 - ["Ps9AnyObject", "startingPoint"]
 - !private ["Ps9AnyObject", "stopUpdatingLocation"]
 - !private ["Ps9AnyObject", "title"]
 - !private ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", "venueManager"]
 - ["Ps9AnyObject", "venuePlaces"]
 - ["Ps9AnyObject", "viewController"]
 - ["Ps9AnyObject", "viewDidLoad"]
@@ -117,16 +123,13 @@ depends-member:
 - ["Ps9AnyObject", ""]
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]
-- !private ["Sa", "append"]
 - ["Sa", "deinit"]
 - !private ["Sa", "last"]
 - !private ["Ps23BidirectionalCollection", "Iterator"]
 - !private ["Ps23BidirectionalCollection", "_Element"]
-- !private ["Ps23BidirectionalCollection", "append"]
 - !private ["Ps23BidirectionalCollection", "last"]
 - !private ["Ps22BidirectionalIndexable", "Iterator"]
 - !private ["Ps22BidirectionalIndexable", "_Element"]
-- !private ["Ps22BidirectionalIndexable", "append"]
 - !private ["Ps22BidirectionalIndexable", "last"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
@@ -160,7 +163,7 @@ depends-member:
 - !private ["PSo25CLLocationManagerDelegate", "GMSMarker"]
 - !private ["PSo25CLLocationManagerDelegate", "GMSPlacesClient"]
 - !private ["PSo25CLLocationManagerDelegate", "UIApplication"]
-- !private ["PSo25CLLocationManagerDelegate", "addMarkerToMap"]
+- ["PSo25CLLocationManagerDelegate", "WeddingVenueManager"]
 - ["PSo25CLLocationManagerDelegate", "didRequestAutocompletePredictions"]
 - ["PSo25CLLocationManagerDelegate", "didUpdateAutocompletePredictions"]
 - !private ["PSo25CLLocationManagerDelegate", "dismiss"]
@@ -176,7 +179,6 @@ depends-member:
 - !private ["PSo25CLLocationManagerDelegate", "print"]
 - !private ["PSo25CLLocationManagerDelegate", "setupMap"]
 - !private ["PSo25CLLocationManagerDelegate", "startingPoint"]
-- !private ["PSo25CLLocationManagerDelegate", "venuePlaces"]
 - ["PSo25CLLocationManagerDelegate", "viewController"]
 - ["PSo25CLLocationManagerDelegate", "wasCancelled"]
 - !private ["PSo25CLLocationManagerDelegate", "zoomLevel"]
@@ -190,11 +192,11 @@ depends-member:
 - !private ["Ps7CVarArg", "GMSPlacesClient"]
 - !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "UIApplication"]
+- ["Ps7CVarArg", "WeddingVenueManager"]
 - !private ["Ps7CVarArg", "_Element"]
 - ["Ps7CVarArg", "addAVenueTouched"]
 - ["Ps7CVarArg", "addMarkerToMap"]
 - !private ["Ps7CVarArg", "animate"]
-- !private ["Ps7CVarArg", "append"]
 - !private ["Ps7CVarArg", "attributions"]
 - !private ["Ps7CVarArg", "autocompleteFilter"]
 - !private ["Ps7CVarArg", "camera"]
@@ -220,6 +222,7 @@ depends-member:
 - !private ["Ps7CVarArg", "map"]
 - ["Ps7CVarArg", "mapView"]
 - !private ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "person"]
 - ["Ps7CVarArg", "placesClient"]
 - !private ["Ps7CVarArg", "position"]
 - !private ["Ps7CVarArg", "present"]
@@ -236,6 +239,7 @@ depends-member:
 - !private ["Ps7CVarArg", "stopUpdatingLocation"]
 - !private ["Ps7CVarArg", "title"]
 - !private ["Ps7CVarArg", "type"]
+- ["Ps7CVarArg", "venueManager"]
 - ["Ps7CVarArg", "venuePlaces"]
 - ["Ps7CVarArg", "viewController"]
 - ["Ps7CVarArg", "viewDidLoad"]
@@ -245,9 +249,8 @@ depends-member:
 - !private ["Vs9Character", "deinit"]
 - !private ["Ps10Collection", "Iterator"]
 - !private ["Ps10Collection", "_Element"]
-- !private ["Ps10Collection", "append"]
 - !private ["Ps10Collection", "last"]
-- !private ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "CLLocationCoordinate2DMake"]
 - ["Ps28CustomDebugStringConvertible", "CLLocationManager"]
 - !private ["Ps28CustomDebugStringConvertible", "GMSAutocompleteFilter"]
@@ -257,11 +260,11 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "GMSPlacesClient"]
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
 - !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- ["Ps28CustomDebugStringConvertible", "WeddingVenueManager"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - ["Ps28CustomDebugStringConvertible", "addAVenueTouched"]
 - ["Ps28CustomDebugStringConvertible", "addMarkerToMap"]
 - !private ["Ps28CustomDebugStringConvertible", "animate"]
-- !private ["Ps28CustomDebugStringConvertible", "append"]
 - !private ["Ps28CustomDebugStringConvertible", "attributions"]
 - !private ["Ps28CustomDebugStringConvertible", "autocompleteFilter"]
 - !private ["Ps28CustomDebugStringConvertible", "camera"]
@@ -287,6 +290,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "map"]
 - ["Ps28CustomDebugStringConvertible", "mapView"]
 - !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "person"]
 - ["Ps28CustomDebugStringConvertible", "placesClient"]
 - !private ["Ps28CustomDebugStringConvertible", "position"]
 - !private ["Ps28CustomDebugStringConvertible", "present"]
@@ -303,6 +307,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "stopUpdatingLocation"]
 - !private ["Ps28CustomDebugStringConvertible", "title"]
 - !private ["Ps28CustomDebugStringConvertible", "type"]
+- ["Ps28CustomDebugStringConvertible", "venueManager"]
 - ["Ps28CustomDebugStringConvertible", "venuePlaces"]
 - ["Ps28CustomDebugStringConvertible", "viewController"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
@@ -310,12 +315,11 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "zoomLevel"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "Iterator"]
 - !private ["Ps17CustomReflectable", "_Element"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
-- !private ["Ps17CustomReflectable", "append"]
-- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "last"]
 - ["Ps23CustomStringConvertible", "CLLocationCoordinate2DMake"]
 - ["Ps23CustomStringConvertible", "CLLocationManager"]
@@ -326,12 +330,12 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "GMSPlacesClient"]
 - !private ["Ps23CustomStringConvertible", "Iterator"]
 - !private ["Ps23CustomStringConvertible", "UIApplication"]
+- ["Ps23CustomStringConvertible", "WeddingVenueManager"]
 - !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "addAVenueTouched"]
 - ["Ps23CustomStringConvertible", "addMarkerToMap"]
 - !private ["Ps23CustomStringConvertible", "animate"]
-- !private ["Ps23CustomStringConvertible", "append"]
 - !private ["Ps23CustomStringConvertible", "attributions"]
 - !private ["Ps23CustomStringConvertible", "autocompleteFilter"]
 - !private ["Ps23CustomStringConvertible", "camera"]
@@ -357,6 +361,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "map"]
 - ["Ps23CustomStringConvertible", "mapView"]
 - !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "person"]
 - ["Ps23CustomStringConvertible", "placesClient"]
 - !private ["Ps23CustomStringConvertible", "position"]
 - !private ["Ps23CustomStringConvertible", "present"]
@@ -373,6 +378,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "stopUpdatingLocation"]
 - !private ["Ps23CustomStringConvertible", "title"]
 - !private ["Ps23CustomStringConvertible", "type"]
+- ["Ps23CustomStringConvertible", "venueManager"]
 - ["Ps23CustomStringConvertible", "venuePlaces"]
 - ["Ps23CustomStringConvertible", "viewController"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
@@ -388,6 +394,7 @@ depends-member:
 - !private ["Ps9Equatable", "GMSMarker"]
 - !private ["Ps9Equatable", "GMSPlacesClient"]
 - !private ["Ps9Equatable", "UIApplication"]
+- ["Ps9Equatable", "WeddingVenueManager"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "addAVenueTouched"]
 - ["Ps9Equatable", "addMarkerToMap"]
@@ -421,6 +428,7 @@ depends-member:
 - ["Ps9Equatable", "mapView"]
 - !private ["Ps9Equatable", "name"]
 - ["Ps9Equatable", "notDetermined"]
+- ["Ps9Equatable", "person"]
 - ["Ps9Equatable", "placesClient"]
 - !private ["Ps9Equatable", "position"]
 - !private ["Ps9Equatable", "present"]
@@ -438,6 +446,7 @@ depends-member:
 - !private ["Ps9Equatable", "stopUpdatingLocation"]
 - !private ["Ps9Equatable", "title"]
 - !private ["Ps9Equatable", "type"]
+- ["Ps9Equatable", "venueManager"]
 - ["Ps9Equatable", "venuePlaces"]
 - ["Ps9Equatable", "viewController"]
 - ["Ps9Equatable", "viewDidLoad"]
@@ -448,13 +457,12 @@ depends-member:
 - !private ["Ps5Error", "localizedDescription"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
 - !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
-- !private ["Ps25ExpressibleByArrayLiteral", "append"]
 - !private ["Ps25ExpressibleByArrayLiteral", "last"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps32ExpressibleByStringInterpolation", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - ["Sf", "deinit"]
 - ["CSo21GMSAutocompleteFilter", "deinit"]
 - !private ["CSo21GMSAutocompleteFilter", "init"]
@@ -471,7 +479,7 @@ depends-member:
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "GMSMarker"]
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "GMSPlacesClient"]
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "UIApplication"]
-- !private ["PSo37GMSAutocompleteViewControllerDelegate", "addMarkerToMap"]
+- ["PSo37GMSAutocompleteViewControllerDelegate", "WeddingVenueManager"]
 - ["PSo37GMSAutocompleteViewControllerDelegate", "didRequestAutocompletePredictions"]
 - ["PSo37GMSAutocompleteViewControllerDelegate", "didUpdateAutocompletePredictions"]
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "dismiss"]
@@ -487,7 +495,6 @@ depends-member:
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "print"]
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "setupMap"]
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "startingPoint"]
-- !private ["PSo37GMSAutocompleteViewControllerDelegate", "venuePlaces"]
 - ["PSo37GMSAutocompleteViewControllerDelegate", "viewController"]
 - ["PSo37GMSAutocompleteViewControllerDelegate", "wasCancelled"]
 - !private ["PSo37GMSAutocompleteViewControllerDelegate", "zoomLevel"]
@@ -523,6 +530,7 @@ depends-member:
 - !private ["Ps8Hashable", "GMSMarker"]
 - !private ["Ps8Hashable", "GMSPlacesClient"]
 - !private ["Ps8Hashable", "UIApplication"]
+- ["Ps8Hashable", "WeddingVenueManager"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "addAVenueTouched"]
 - ["Ps8Hashable", "addMarkerToMap"]
@@ -556,6 +564,7 @@ depends-member:
 - ["Ps8Hashable", "mapView"]
 - !private ["Ps8Hashable", "name"]
 - ["Ps8Hashable", "notDetermined"]
+- ["Ps8Hashable", "person"]
 - ["Ps8Hashable", "placesClient"]
 - !private ["Ps8Hashable", "position"]
 - !private ["Ps8Hashable", "present"]
@@ -573,6 +582,7 @@ depends-member:
 - !private ["Ps8Hashable", "stopUpdatingLocation"]
 - !private ["Ps8Hashable", "title"]
 - !private ["Ps8Hashable", "type"]
+- ["Ps8Hashable", "venueManager"]
 - ["Ps8Hashable", "venuePlaces"]
 - ["Ps8Hashable", "viewController"]
 - ["Ps8Hashable", "viewDidLoad"]
@@ -582,11 +592,9 @@ depends-member:
 - ["SQ", "deinit"]
 - !private ["Ps9Indexable", "Iterator"]
 - !private ["Ps9Indexable", "_Element"]
-- !private ["Ps9Indexable", "append"]
 - !private ["Ps9Indexable", "last"]
 - !private ["Ps13IndexableBase", "Iterator"]
 - !private ["Ps13IndexableBase", "_Element"]
-- !private ["Ps13IndexableBase", "append"]
 - !private ["Ps13IndexableBase", "last"]
 - !private ["Vs16IndexingIterator", "Element"]
 - !private ["Si", "deinit"]
@@ -596,15 +604,13 @@ depends-member:
 - !private ["Vs4Int8", "deinit"]
 - !private ["Ps16IteratorProtocol", "Element"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps10MirrorPath", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "Iterator"]
 - !private ["Ps17MutableCollection", "_Element"]
-- !private ["Ps17MutableCollection", "append"]
 - !private ["Ps17MutableCollection", "last"]
 - !private ["Ps16MutableIndexable", "Iterator"]
 - !private ["Ps16MutableIndexable", "_Element"]
-- !private ["Ps16MutableIndexable", "append"]
 - !private ["Ps16MutableIndexable", "last"]
 - ["CSo7NSCoder", "deinit"]
 - ["PSo8NSCoding", "CLLocationCoordinate2DMake"]
@@ -615,6 +621,7 @@ depends-member:
 - !private ["PSo8NSCoding", "GMSMarker"]
 - !private ["PSo8NSCoding", "GMSPlacesClient"]
 - !private ["PSo8NSCoding", "UIApplication"]
+- ["PSo8NSCoding", "WeddingVenueManager"]
 - ["PSo8NSCoding", "addAVenueTouched"]
 - ["PSo8NSCoding", "addMarkerToMap"]
 - !private ["PSo8NSCoding", "animate"]
@@ -626,7 +633,7 @@ depends-member:
 - ["PSo8NSCoding", "didRequestAutocompletePredictions"]
 - ["PSo8NSCoding", "didUpdateAutocompletePredictions"]
 - !private ["PSo8NSCoding", "dismiss"]
-- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isHidden"]
 - !private ["PSo8NSCoding", "kCLLocationAccuracyBest"]
 - ["PSo8NSCoding", "listLikelyPlaces"]
@@ -635,6 +642,7 @@ depends-member:
 - ["PSo8NSCoding", "locationManagerDidResumeLocationUpdates"]
 - ["PSo8NSCoding", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo8NSCoding", "mapView"]
+- ["PSo8NSCoding", "person"]
 - ["PSo8NSCoding", "placesClient"]
 - !private ["PSo8NSCoding", "present"]
 - !private ["PSo8NSCoding", "print"]
@@ -644,6 +652,7 @@ depends-member:
 - ["PSo8NSCoding", "selectedPlace"]
 - ["PSo8NSCoding", "setupMap"]
 - ["PSo8NSCoding", "startingPoint"]
+- ["PSo8NSCoding", "venueManager"]
 - ["PSo8NSCoding", "venuePlaces"]
 - ["PSo8NSCoding", "viewController"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -652,7 +661,7 @@ depends-member:
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "camera"]
 - !private ["PSo9NSCopying", "coordinate"]
-- !private ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "map"]
 - !private ["PSo9NSCopying", "position"]
 - !private ["PSo9NSCopying", "title"]
@@ -664,6 +673,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "GMSMarker"]
 - !private ["PSo26NSExtensionRequestHandling", "GMSPlacesClient"]
 - !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- ["PSo26NSExtensionRequestHandling", "WeddingVenueManager"]
 - ["PSo26NSExtensionRequestHandling", "addAVenueTouched"]
 - ["PSo26NSExtensionRequestHandling", "addMarkerToMap"]
 - !private ["PSo26NSExtensionRequestHandling", "autocompleteFilter"]
@@ -680,6 +690,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "locationManagerDidResumeLocationUpdates"]
 - ["PSo26NSExtensionRequestHandling", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo26NSExtensionRequestHandling", "mapView"]
+- ["PSo26NSExtensionRequestHandling", "person"]
 - ["PSo26NSExtensionRequestHandling", "placesClient"]
 - !private ["PSo26NSExtensionRequestHandling", "present"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
@@ -689,6 +700,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "selectedPlace"]
 - ["PSo26NSExtensionRequestHandling", "setupMap"]
 - ["PSo26NSExtensionRequestHandling", "startingPoint"]
+- ["PSo26NSExtensionRequestHandling", "venueManager"]
 - ["PSo26NSExtensionRequestHandling", "venuePlaces"]
 - ["PSo26NSExtensionRequestHandling", "viewController"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -696,7 +708,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "zoomLevel"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "camera"]
-- !private ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "CLAuthorizationStatus"]
 - ["CSo8NSObject", "CLLocation"]
 - ["CSo8NSObject", "CLLocationCoordinate2DMake"]
@@ -714,6 +726,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UISearchController"]
 - ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "WeddingVenueManager"]
 - ["CSo8NSObject", "addAVenueTouched"]
 - ["CSo8NSObject", "addMarkerToMap"]
 - !private ["CSo8NSObject", "animate"]
@@ -741,6 +754,7 @@ depends-member:
 - !private ["CSo8NSObject", "map"]
 - ["CSo8NSObject", "mapView"]
 - !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "person"]
 - ["CSo8NSObject", "placesClient"]
 - !private ["CSo8NSObject", "position"]
 - !private ["CSo8NSObject", "present"]
@@ -757,6 +771,7 @@ depends-member:
 - !private ["CSo8NSObject", "stopUpdatingLocation"]
 - !private ["CSo8NSObject", "title"]
 - !private ["CSo8NSObject", "type"]
+- ["CSo8NSObject", "venueManager"]
 - ["CSo8NSObject", "venuePlaces"]
 - ["CSo8NSObject", "viewController"]
 - ["CSo8NSObject", "viewDidLoad"]
@@ -770,6 +785,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "GMSMarker"]
 - !private ["PSo16NSObjectProtocol", "GMSPlacesClient"]
 - !private ["PSo16NSObjectProtocol", "UIApplication"]
+- ["PSo16NSObjectProtocol", "WeddingVenueManager"]
 - ["PSo16NSObjectProtocol", "addAVenueTouched"]
 - ["PSo16NSObjectProtocol", "addMarkerToMap"]
 - !private ["PSo16NSObjectProtocol", "animate"]
@@ -797,6 +813,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "map"]
 - ["PSo16NSObjectProtocol", "mapView"]
 - !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "person"]
 - ["PSo16NSObjectProtocol", "placesClient"]
 - !private ["PSo16NSObjectProtocol", "position"]
 - !private ["PSo16NSObjectProtocol", "present"]
@@ -813,6 +830,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "stopUpdatingLocation"]
 - !private ["PSo16NSObjectProtocol", "title"]
 - !private ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", "venueManager"]
 - ["PSo16NSObjectProtocol", "venuePlaces"]
 - ["PSo16NSObjectProtocol", "viewController"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
@@ -820,24 +838,20 @@ depends-member:
 - ["PSo16NSObjectProtocol", "zoomLevel"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "coordinate"]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
 - !private ["Ps22RandomAccessCollection", "Iterator"]
 - !private ["Ps22RandomAccessCollection", "_Element"]
-- !private ["Ps22RandomAccessCollection", "append"]
 - !private ["Ps22RandomAccessCollection", "last"]
 - !private ["Ps21RandomAccessIndexable", "Iterator"]
 - !private ["Ps21RandomAccessIndexable", "_Element"]
-- !private ["Ps21RandomAccessIndexable", "append"]
 - !private ["Ps21RandomAccessIndexable", "last"]
 - !private ["Ps26RangeReplaceableCollection", "Iterator"]
 - !private ["Ps26RangeReplaceableCollection", "_Element"]
-- !private ["Ps26RangeReplaceableCollection", "append"]
 - !private ["Ps26RangeReplaceableCollection", "last"]
 - !private ["Ps25RangeReplaceableIndexable", "Iterator"]
 - !private ["Ps25RangeReplaceableIndexable", "_Element"]
-- !private ["Ps25RangeReplaceableIndexable", "append"]
 - !private ["Ps25RangeReplaceableIndexable", "last"]
 - !private ["Ps16RawRepresentable", "address"]
 - ["Ps16RawRepresentable", "authorizedAlways"]
@@ -848,12 +862,12 @@ depends-member:
 - !private ["Ps8Sequence", "Element"]
 - !private ["Ps8Sequence", "Iterator"]
 - !private ["Ps8Sequence", "_Element"]
-- !private ["Ps8Sequence", "append"]
 - !private ["Ps8Sequence", "last"]
 - ["SS", "deinit"]
-- !private ["SS", "init"]
-- !private ["Ps16TextOutputStream", "init"]
-- !private ["Ps20TextOutputStreamable", "init"]
+- ["SS", "init"]
+- ["P15AlecrimCoreData14StringProtocol", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "animate"]
 - !private ["PSo29UIAccessibilityIdentification", "camera"]
 - !private ["PSo29UIAccessibilityIdentification", "isHidden"]
@@ -868,6 +882,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "GMSMarker"]
 - !private ["PSo21UIAppearanceContainer", "GMSPlacesClient"]
 - !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- ["PSo21UIAppearanceContainer", "WeddingVenueManager"]
 - ["PSo21UIAppearanceContainer", "addAVenueTouched"]
 - ["PSo21UIAppearanceContainer", "addMarkerToMap"]
 - !private ["PSo21UIAppearanceContainer", "animate"]
@@ -887,6 +902,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "locationManagerDidResumeLocationUpdates"]
 - ["PSo21UIAppearanceContainer", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo21UIAppearanceContainer", "mapView"]
+- ["PSo21UIAppearanceContainer", "person"]
 - ["PSo21UIAppearanceContainer", "placesClient"]
 - !private ["PSo21UIAppearanceContainer", "present"]
 - !private ["PSo21UIAppearanceContainer", "print"]
@@ -896,6 +912,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "selectedPlace"]
 - ["PSo21UIAppearanceContainer", "setupMap"]
 - ["PSo21UIAppearanceContainer", "startingPoint"]
+- ["PSo21UIAppearanceContainer", "venueManager"]
 - ["PSo21UIAppearanceContainer", "venuePlaces"]
 - ["PSo21UIAppearanceContainer", "viewController"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
@@ -913,6 +930,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "GMSMarker"]
 - !private ["PSo18UIContentContainer", "GMSPlacesClient"]
 - !private ["PSo18UIContentContainer", "UIApplication"]
+- ["PSo18UIContentContainer", "WeddingVenueManager"]
 - ["PSo18UIContentContainer", "addAVenueTouched"]
 - ["PSo18UIContentContainer", "addMarkerToMap"]
 - !private ["PSo18UIContentContainer", "autocompleteFilter"]
@@ -929,6 +947,7 @@ depends-member:
 - ["PSo18UIContentContainer", "locationManagerDidResumeLocationUpdates"]
 - ["PSo18UIContentContainer", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo18UIContentContainer", "mapView"]
+- ["PSo18UIContentContainer", "person"]
 - ["PSo18UIContentContainer", "placesClient"]
 - !private ["PSo18UIContentContainer", "present"]
 - !private ["PSo18UIContentContainer", "print"]
@@ -938,6 +957,7 @@ depends-member:
 - ["PSo18UIContentContainer", "selectedPlace"]
 - ["PSo18UIContentContainer", "setupMap"]
 - ["PSo18UIContentContainer", "startingPoint"]
+- ["PSo18UIContentContainer", "venueManager"]
 - ["PSo18UIContentContainer", "venuePlaces"]
 - ["PSo18UIContentContainer", "viewController"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -958,6 +978,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "GMSMarker"]
 - !private ["PSo18UIFocusEnvironment", "GMSPlacesClient"]
 - !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- ["PSo18UIFocusEnvironment", "WeddingVenueManager"]
 - ["PSo18UIFocusEnvironment", "addAVenueTouched"]
 - ["PSo18UIFocusEnvironment", "addMarkerToMap"]
 - !private ["PSo18UIFocusEnvironment", "animate"]
@@ -977,6 +998,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "locationManagerDidResumeLocationUpdates"]
 - ["PSo18UIFocusEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo18UIFocusEnvironment", "mapView"]
+- ["PSo18UIFocusEnvironment", "person"]
 - ["PSo18UIFocusEnvironment", "placesClient"]
 - !private ["PSo18UIFocusEnvironment", "present"]
 - !private ["PSo18UIFocusEnvironment", "print"]
@@ -986,6 +1008,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "selectedPlace"]
 - ["PSo18UIFocusEnvironment", "setupMap"]
 - ["PSo18UIFocusEnvironment", "startingPoint"]
+- ["PSo18UIFocusEnvironment", "venueManager"]
 - ["PSo18UIFocusEnvironment", "venuePlaces"]
 - ["PSo18UIFocusEnvironment", "viewController"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
@@ -1012,6 +1035,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UISearchController"]
 - ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "WeddingVenueManager"]
 - ["CSo11UIResponder", "addAVenueTouched"]
 - ["CSo11UIResponder", "addMarkerToMap"]
 - !private ["CSo11UIResponder", "animate"]
@@ -1032,6 +1056,7 @@ depends-member:
 - ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
 - ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
 - ["CSo11UIResponder", "mapView"]
+- ["CSo11UIResponder", "person"]
 - ["CSo11UIResponder", "placesClient"]
 - !private ["CSo11UIResponder", "present"]
 - !private ["CSo11UIResponder", "print"]
@@ -1042,6 +1067,7 @@ depends-member:
 - ["CSo11UIResponder", "setupMap"]
 - !private ["CSo11UIResponder", "shared"]
 - ["CSo11UIResponder", "startingPoint"]
+- ["CSo11UIResponder", "venueManager"]
 - ["CSo11UIResponder", "venuePlaces"]
 - ["CSo11UIResponder", "viewController"]
 - ["CSo11UIResponder", "viewDidLoad"]
@@ -1055,6 +1081,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "GMSMarker"]
 - !private ["PSo30UIResponderStandardEditActions", "GMSPlacesClient"]
 - !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- ["PSo30UIResponderStandardEditActions", "WeddingVenueManager"]
 - ["PSo30UIResponderStandardEditActions", "addAVenueTouched"]
 - ["PSo30UIResponderStandardEditActions", "addMarkerToMap"]
 - !private ["PSo30UIResponderStandardEditActions", "animate"]
@@ -1075,6 +1102,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "locationManagerDidResumeLocationUpdates"]
 - ["PSo30UIResponderStandardEditActions", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo30UIResponderStandardEditActions", "mapView"]
+- ["PSo30UIResponderStandardEditActions", "person"]
 - ["PSo30UIResponderStandardEditActions", "placesClient"]
 - !private ["PSo30UIResponderStandardEditActions", "present"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
@@ -1085,6 +1113,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "setupMap"]
 - !private ["PSo30UIResponderStandardEditActions", "shared"]
 - ["PSo30UIResponderStandardEditActions", "startingPoint"]
+- ["PSo30UIResponderStandardEditActions", "venueManager"]
 - ["PSo30UIResponderStandardEditActions", "venuePlaces"]
 - ["PSo30UIResponderStandardEditActions", "viewController"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
@@ -1099,6 +1128,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "GMSMarker"]
 - !private ["PSo16UIStateRestoring", "GMSPlacesClient"]
 - !private ["PSo16UIStateRestoring", "UIApplication"]
+- ["PSo16UIStateRestoring", "WeddingVenueManager"]
 - ["PSo16UIStateRestoring", "addAVenueTouched"]
 - ["PSo16UIStateRestoring", "addMarkerToMap"]
 - !private ["PSo16UIStateRestoring", "autocompleteFilter"]
@@ -1115,6 +1145,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "locationManagerDidResumeLocationUpdates"]
 - ["PSo16UIStateRestoring", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo16UIStateRestoring", "mapView"]
+- ["PSo16UIStateRestoring", "person"]
 - ["PSo16UIStateRestoring", "placesClient"]
 - !private ["PSo16UIStateRestoring", "present"]
 - !private ["PSo16UIStateRestoring", "print"]
@@ -1124,6 +1155,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "selectedPlace"]
 - ["PSo16UIStateRestoring", "setupMap"]
 - ["PSo16UIStateRestoring", "startingPoint"]
+- ["PSo16UIStateRestoring", "venueManager"]
 - ["PSo16UIStateRestoring", "venuePlaces"]
 - ["PSo16UIStateRestoring", "viewController"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -1138,6 +1170,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "GMSMarker"]
 - !private ["PSo18UITraitEnvironment", "GMSPlacesClient"]
 - !private ["PSo18UITraitEnvironment", "UIApplication"]
+- ["PSo18UITraitEnvironment", "WeddingVenueManager"]
 - ["PSo18UITraitEnvironment", "addAVenueTouched"]
 - ["PSo18UITraitEnvironment", "addMarkerToMap"]
 - !private ["PSo18UITraitEnvironment", "animate"]
@@ -1157,6 +1190,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "locationManagerDidResumeLocationUpdates"]
 - ["PSo18UITraitEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo18UITraitEnvironment", "mapView"]
+- ["PSo18UITraitEnvironment", "person"]
 - ["PSo18UITraitEnvironment", "placesClient"]
 - !private ["PSo18UITraitEnvironment", "present"]
 - !private ["PSo18UITraitEnvironment", "print"]
@@ -1166,6 +1200,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "selectedPlace"]
 - ["PSo18UITraitEnvironment", "setupMap"]
 - ["PSo18UITraitEnvironment", "startingPoint"]
+- ["PSo18UITraitEnvironment", "venueManager"]
 - ["PSo18UITraitEnvironment", "venuePlaces"]
 - ["PSo18UITraitEnvironment", "viewController"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
@@ -1192,6 +1227,7 @@ depends-member:
 - !private ["CSo16UIViewController", "UIApplication"]
 - ["CSo16UIViewController", "UISearchController"]
 - ["CSo16UIViewController", "UITextView"]
+- ["CSo16UIViewController", "WeddingVenueManager"]
 - ["CSo16UIViewController", "addAVenueTouched"]
 - ["CSo16UIViewController", "addMarkerToMap"]
 - !private ["CSo16UIViewController", "autocompleteFilter"]
@@ -1209,6 +1245,7 @@ depends-member:
 - ["CSo16UIViewController", "locationManagerDidResumeLocationUpdates"]
 - ["CSo16UIViewController", "locationManagerShouldDisplayHeadingCalibration"]
 - ["CSo16UIViewController", "mapView"]
+- ["CSo16UIViewController", "person"]
 - ["CSo16UIViewController", "placesClient"]
 - !private ["CSo16UIViewController", "present"]
 - !private ["CSo16UIViewController", "print"]
@@ -1218,6 +1255,7 @@ depends-member:
 - ["CSo16UIViewController", "selectedPlace"]
 - ["CSo16UIViewController", "setupMap"]
 - ["CSo16UIViewController", "startingPoint"]
+- ["CSo16UIViewController", "venueManager"]
 - ["CSo16UIViewController", "venuePlaces"]
 - ["CSo16UIViewController", "viewController"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -1247,6 +1285,7 @@ depends-member:
 - !private ["C13WeddingVenues14ViewController", "UIApplication"]
 - ["C13WeddingVenues14ViewController", "UISearchController"]
 - ["C13WeddingVenues14ViewController", "UITextView"]
+- ["C13WeddingVenues14ViewController", "WeddingVenueManager"]
 - ["C13WeddingVenues14ViewController", "addAVenueTouched"]
 - ["C13WeddingVenues14ViewController", "addMarkerToMap"]
 - ["C13WeddingVenues14ViewController", "currentLocation"]
@@ -1262,6 +1301,7 @@ depends-member:
 - ["C13WeddingVenues14ViewController", "locationManagerDidResumeLocationUpdates"]
 - ["C13WeddingVenues14ViewController", "locationManagerShouldDisplayHeadingCalibration"]
 - ["C13WeddingVenues14ViewController", "mapView"]
+- ["C13WeddingVenues14ViewController", "person"]
 - ["C13WeddingVenues14ViewController", "placesClient"]
 - !private ["C13WeddingVenues14ViewController", "present"]
 - !private ["C13WeddingVenues14ViewController", "print"]
@@ -1271,28 +1311,30 @@ depends-member:
 - ["C13WeddingVenues14ViewController", "selectedPlace"]
 - ["C13WeddingVenues14ViewController", "setupMap"]
 - ["C13WeddingVenues14ViewController", "startingPoint"]
+- ["C13WeddingVenues14ViewController", "venueManager"]
 - ["C13WeddingVenues14ViewController", "venuePlaces"]
 - ["C13WeddingVenues14ViewController", "viewController"]
 - ["C13WeddingVenues14ViewController", "viewDidLoad"]
 - ["C13WeddingVenues14ViewController", "wasCancelled"]
 - ["C13WeddingVenues14ViewController", "zoomLevel"]
+- !private ["C13WeddingVenues19WeddingVenueManager", "addVenue"]
+- ["C13WeddingVenues19WeddingVenueManager", "deinit"]
+- ["C13WeddingVenues19WeddingVenueManager", "sharedInstance"]
 - !private ["Ps14_ArrayProtocol", "Iterator"]
 - !private ["Ps14_ArrayProtocol", "_Element"]
-- !private ["Ps14_ArrayProtocol", "append"]
 - !private ["Ps14_ArrayProtocol", "last"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "camera"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
 - !private ["Ps24_DestructorSafeContainer", "Iterator"]
 - !private ["Ps24_DestructorSafeContainer", "_Element"]
-- !private ["Ps24_DestructorSafeContainer", "append"]
 - !private ["Ps24_DestructorSafeContainer", "last"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - ["Ps9_Hashable", "CLLocationCoordinate2DMake"]
 - ["Ps9_Hashable", "CLLocationManager"]
 - !private ["Ps9_Hashable", "GMSAutocompleteFilter"]
@@ -1301,6 +1343,7 @@ depends-member:
 - !private ["Ps9_Hashable", "GMSMarker"]
 - !private ["Ps9_Hashable", "GMSPlacesClient"]
 - !private ["Ps9_Hashable", "UIApplication"]
+- ["Ps9_Hashable", "WeddingVenueManager"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "addAVenueTouched"]
 - ["Ps9_Hashable", "addMarkerToMap"]
@@ -1334,6 +1377,7 @@ depends-member:
 - ["Ps9_Hashable", "mapView"]
 - !private ["Ps9_Hashable", "name"]
 - ["Ps9_Hashable", "notDetermined"]
+- ["Ps9_Hashable", "person"]
 - ["Ps9_Hashable", "placesClient"]
 - !private ["Ps9_Hashable", "position"]
 - !private ["Ps9_Hashable", "present"]
@@ -1351,6 +1395,7 @@ depends-member:
 - !private ["Ps9_Hashable", "stopUpdatingLocation"]
 - !private ["Ps9_Hashable", "title"]
 - !private ["Ps9_Hashable", "type"]
+- ["Ps9_Hashable", "venueManager"]
 - ["Ps9_Hashable", "venuePlaces"]
 - ["Ps9_Hashable", "viewController"]
 - ["Ps9_Hashable", "viewDidLoad"]
@@ -1360,8 +1405,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
 - !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "append"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "last"]
 - !private ["Ps21_ObjectiveCBridgeable", "latitude"]
 - !private ["Ps21_ObjectiveCBridgeable", "longitude"]
@@ -1380,20 +1424,20 @@ depends-nominal:
 - "Ps7CVarArg"
 - !private "Vs9Character"
 - !private "Ps10Collection"
-- !private "Ps10Comparable"
+- "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
-- !private "Ps29CustomPlaygroundQuickLookable"
-- !private "Ps17CustomReflectable"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Sd"
 - "Ps9Equatable"
 - "Ps5Error"
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
-- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps32ExpressibleByStringInterpolation"
-- !private "Ps26ExpressibleByStringLiteral"
-- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Sf"
 - "CSo21GMSAutocompleteFilter"
 - "CSo29GMSAutocompleteViewController"
@@ -1416,19 +1460,19 @@ depends-nominal:
 - !private "Vs5Int64"
 - !private "Vs4Int8"
 - !private "Ps16IteratorProtocol"
-- !private "Ps25LosslessStringConvertible"
-- !private "Ps10MirrorPath"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
 - !private "Ps16MutableIndexable"
 - "CSo7NSCoder"
 - "PSo8NSCoding"
-- !private "PSo9NSCopying"
+- "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
-- !private "PSo16NSMutableCopying"
+- "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
 - "Sq"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps21RandomAccessIndexable"
@@ -1437,8 +1481,9 @@ depends-nominal:
 - "Ps16RawRepresentable"
 - !private "Ps8Sequence"
 - "SS"
-- !private "Ps16TextOutputStream"
-- !private "Ps20TextOutputStreamable"
+- "P15AlecrimCoreData14StringProtocol"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -1461,27 +1506,28 @@ depends-nominal:
 - !private "Vs5UInt8"
 - !private "Sc"
 - "C13WeddingVenues14ViewController"
+- "C13WeddingVenues19WeddingVenueManager"
 - !private "Ps14_ArrayProtocol"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
-- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps34_ExpressibleByBuiltinStringLiteral"
-- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
-- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
-- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
-- !private "Ps21_ObjectiveCBridgeable"
+- "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
@@ -1548,5 +1594,9 @@ depends-external:
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/AlecrimCoreData.swiftmodule/x86_64.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-Swift.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "386405bb4e5533dd94adeb0f277e7490"
+interface-hash: "091e4d3aa0037170aa30f6d2526bc3af"

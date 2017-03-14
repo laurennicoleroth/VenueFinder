@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Attribute"
+- "NullableAttribute"
+provides-nominal:
+- "V15AlecrimCoreData9Attribute"
+- "V15AlecrimCoreData17NullableAttribute"
+provides-member:
+- ["V15AlecrimCoreData9Attribute", ""]
+- ["V15AlecrimCoreData17NullableAttribute", ""]
+- ["V15AlecrimCoreData9Attribute", "count"]
+- ["V15AlecrimCoreData9Attribute", "max"]
+- ["V15AlecrimCoreData9Attribute", "min"]
+- ["V15AlecrimCoreData9Attribute", "avg"]
+- ["V15AlecrimCoreData9Attribute", "sum"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Attribute"
+- "NamedAttributeProtocol"
+- "NullableAttribute"
+- "AssignmentPrecedence"
+- !private "+"
+- "Collection"
+- "String"
+- "AttributeProtocol"
+- !private "StringLiteralType"
+- "NullableAttributeProtocol"
+- !private "UnicodeScalarType"
+- "Int"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["V15AlecrimCoreData9Attribute", "Attribute"]
+- ["V15AlecrimCoreData9Attribute", "Collection"]
+- ["V15AlecrimCoreData9Attribute", "Int"]
+- ["V15AlecrimCoreData9Attribute", "NamedAttributeProtocol"]
+- ["V15AlecrimCoreData9Attribute", "String"]
+- ["V15AlecrimCoreData9Attribute", "T"]
+- ["V15AlecrimCoreData9Attribute", "ValueType"]
+- ["V15AlecrimCoreData9Attribute", "___expression"]
+- ["V15AlecrimCoreData9Attribute", "___name"]
+- ["V15AlecrimCoreData9Attribute", "avg"]
+- ["V15AlecrimCoreData9Attribute", "count"]
+- ["V15AlecrimCoreData9Attribute", "deinit"]
+- ["V15AlecrimCoreData9Attribute", "init"]
+- ["V15AlecrimCoreData9Attribute", "max"]
+- ["V15AlecrimCoreData9Attribute", "min"]
+- ["V15AlecrimCoreData9Attribute", "sum"]
+- !private ["P15AlecrimCoreData17AttributeProtocol", "Attribute"]
+- ["P15AlecrimCoreData17AttributeProtocol", "Collection"]
+- !private ["P15AlecrimCoreData17AttributeProtocol", "T"]
+- ["P15AlecrimCoreData17AttributeProtocol", "___expression"]
+- ["P15AlecrimCoreData17AttributeProtocol", "___name"]
+- !private ["P15AlecrimCoreData17AttributeProtocol", "init"]
+- ["P15AlecrimCoreData17AttributeProtocol", ""]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P15AlecrimCoreData22NamedAttributeProtocol", "Attribute"]
+- ["P15AlecrimCoreData22NamedAttributeProtocol", "Collection"]
+- !private ["P15AlecrimCoreData22NamedAttributeProtocol", "T"]
+- ["P15AlecrimCoreData22NamedAttributeProtocol", "___expression"]
+- ["P15AlecrimCoreData22NamedAttributeProtocol", "___name"]
+- ["P15AlecrimCoreData22NamedAttributeProtocol", "deinit"]
+- !private ["P15AlecrimCoreData22NamedAttributeProtocol", "init"]
+- ["P15AlecrimCoreData22NamedAttributeProtocol", ""]
+- ["V15AlecrimCoreData17NullableAttribute", "NamedAttributeProtocol"]
+- ["V15AlecrimCoreData17NullableAttribute", "String"]
+- ["V15AlecrimCoreData17NullableAttribute", "T"]
+- ["V15AlecrimCoreData17NullableAttribute", "ValueType"]
+- ["V15AlecrimCoreData17NullableAttribute", "___expression"]
+- ["V15AlecrimCoreData17NullableAttribute", "___name"]
+- ["V15AlecrimCoreData17NullableAttribute", "deinit"]
+- ["V15AlecrimCoreData17NullableAttribute", "init"]
+- ["P15AlecrimCoreData25NullableAttributeProtocol", "___expression"]
+- ["P15AlecrimCoreData25NullableAttributeProtocol", "___name"]
+- ["P15AlecrimCoreData25NullableAttributeProtocol", ""]
+- !private ["Ps8Sequence", "Iterator"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["P15AlecrimCoreData14StringProtocol", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "V15AlecrimCoreData9Attribute"
+- "P15AlecrimCoreData17AttributeProtocol"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "P15AlecrimCoreData22NamedAttributeProtocol"
+- "V15AlecrimCoreData17NullableAttribute"
+- "P15AlecrimCoreData25NullableAttributeProtocol"
+- !private "Ps8Sequence"
+- "SS"
+- !private "P15AlecrimCoreData14StringProtocol"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/Target Support Files/AlecrimCoreData/AlecrimCoreData-umbrella.h"
+- "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlecrimCoreData.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "7aa4022f53b983a819bca3e467f211e8"

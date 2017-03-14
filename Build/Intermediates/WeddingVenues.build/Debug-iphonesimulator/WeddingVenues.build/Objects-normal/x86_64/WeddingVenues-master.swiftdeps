@@ -1,9 +1,11 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "8c838871646528181ae0998a7869fe52"
-build_time: [542778988, 694557000]
+options: "4b03258afced29f77049510de9550329"
+build_time: [542780728, 292563000]
 inputs:
-  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/WeddingVenues/ViewController.swift": [542778422, 0]
+  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/WeddingVenues/Venue.swift": [542780009, 0]
+  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/WeddingVenues/ViewController.swift": [542780641, 0]
+  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/WeddingVenues/CoreDataManager.swift": [542780728, 0]
   "/Users/laurennicoleroth/Development/iOS/WeddingVenues/WeddingVenues/AppDelegate.swift": [542774789, 0]
-  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/WeddingVenues.build/Debug-iphonesimulator/WeddingVenues.build/DerivedSources/CoreDataGenerated/WeddingVenues/Venue+CoreDataClass.swift": [542778747, 0]
-  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/WeddingVenues.build/Debug-iphonesimulator/WeddingVenues.build/DerivedSources/CoreDataGenerated/WeddingVenues/Venue+CoreDataProperties.swift": [542778747, 0]
-  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/WeddingVenues.build/Debug-iphonesimulator/WeddingVenues.build/DerivedSources/CoreDataGenerated/WeddingVenues/WeddingVenues+CoreDataModel.swift": [542778747, 0]
+  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/WeddingVenues.build/Debug-iphonesimulator/WeddingVenues.build/DerivedSources/CoreDataGenerated/WeddingVenues/Venue+CoreDataClass.swift": [542780728, 0]
+  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/WeddingVenues.build/Debug-iphonesimulator/WeddingVenues.build/DerivedSources/CoreDataGenerated/WeddingVenues/Venue+CoreDataProperties.swift": [542780728, 0]
+  "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/WeddingVenues.build/Debug-iphonesimulator/WeddingVenues.build/DerivedSources/CoreDataGenerated/WeddingVenues/WeddingVenues+CoreDataModel.swift": [542780728, 0]
