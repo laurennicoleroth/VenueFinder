@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/Pods_WeddingVenues.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WeddingVenues-umbrella.h",
+          'external-contents': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WeddingVenues-Swift.h",
+          'external-contents': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/Pods_WeddingVenues.framework/Headers/Pods_WeddingVenues-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/Pods_WeddingVenues.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-WeddingVenues.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80F3AEE7C3A78655E73FA00C /* Pods_WeddingVenues.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08655072F19A8869768CC285 /* Pods_WeddingVenues.framework */; };
 		96FB67FE1E778DAA0002C99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB67FD1E778DAA0002C99C /* AppDelegate.swift */; };
 		96FB68001E778DAA0002C99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB67FF1E778DAA0002C99C /* ViewController.swift */; };
 		96FB68031E778DAA0002C99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FB68011E778DAA0002C99C /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		96FB68081E778DAA0002C99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FB68071E778DAA0002C99C /* Assets.xcassets */; };
 		96FB680B1E778DAA0002C99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FB68091E778DAA0002C99C /* LaunchScreen.storyboard */; };
 		96FB68161E778DAA0002C99C /* WeddingVenuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB68151E778DAA0002C99C /* WeddingVenuesTests.swift */; };
+		C14E5A7F1F11E391C3A55A6E /* Pods_WeddingVenuesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F482CCA45366243AF74C1721 /* Pods_WeddingVenuesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08655072F19A8869768CC285 /* Pods_WeddingVenues.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingVenues.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FB67FA1E778DAA0002C99C /* WeddingVenues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingVenues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FB67FD1E778DAA0002C99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FB67FF1E778DAA0002C99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		96FB68111E778DAA0002C99C /* WeddingVenuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingVenuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FB68151E778DAA0002C99C /* WeddingVenuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingVenuesTests.swift; sourceTree = "<group>"; };
 		96FB68171E778DAA0002C99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC4060AE9F2AC14F4EF6B22 /* Pods-WeddingVenues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues.debug.xcconfig"; sourceTree = "<group>"; };
+		B171CA9CD8D0A3ABF5A77FBA /* Pods-WeddingVenues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenues.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues.release.xcconfig"; sourceTree = "<group>"; };
+		D5D685FE142CFACC75D44C43 /* Pods-WeddingVenuesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenuesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenuesTests/Pods-WeddingVenuesTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8F8B408962A20307304F88D /* Pods-WeddingVenuesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingVenuesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingVenuesTests/Pods-WeddingVenuesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F482CCA45366243AF74C1721 /* Pods_WeddingVenuesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingVenuesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F3AEE7C3A78655E73FA00C /* Pods_WeddingVenues.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14E5A7F1F11E391C3A55A6E /* Pods_WeddingVenuesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				96FB67FC1E778DAA0002C99C /* WeddingVenues */,
 				96FB68141E778DAA0002C99C /* WeddingVenuesTests */,
 				96FB67FB1E778DAA0002C99C /* Products */,
+				B98BBB26648CBC28B5CFDF11 /* Pods */,
+				F89689180A8DF115730FEAA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,26 @@
 			path = WeddingVenuesTests;
 			sourceTree = "<group>";
 		};
+		B98BBB26648CBC28B5CFDF11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FC4060AE9F2AC14F4EF6B22 /* Pods-WeddingVenues.debug.xcconfig */,
+				B171CA9CD8D0A3ABF5A77FBA /* Pods-WeddingVenues.release.xcconfig */,
+				D8F8B408962A20307304F88D /* Pods-WeddingVenuesTests.debug.xcconfig */,
+				D5D685FE142CFACC75D44C43 /* Pods-WeddingVenuesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F89689180A8DF115730FEAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08655072F19A8869768CC285 /* Pods_WeddingVenues.framework */,
+				F482CCA45366243AF74C1721 /* Pods_WeddingVenuesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FB681A1E778DAA0002C99C /* Build configuration list for PBXNativeTarget "WeddingVenues" */;
 			buildPhases = (
+				BB1D40A02F55AB3FACFA64E8 /* [CP] Check Pods Manifest.lock */,
 				96FB67F61E778DAA0002C99C /* Sources */,
 				96FB67F71E778DAA0002C99C /* Frameworks */,
 				96FB67F81E778DAA0002C99C /* Resources */,
+				89CACC22FA79DD80401FC289 /* [CP] Embed Pods Frameworks */,
+				DB11CF687C60200A3C90CCE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FB681D1E778DAA0002C99C /* Build configuration list for PBXNativeTarget "WeddingVenuesTests" */;
 			buildPhases = (
+				9D54D0D4ECE51B665E38DCFD /* [CP] Check Pods Manifest.lock */,
 				96FB680D1E778DAA0002C99C /* Sources */,
 				96FB680E1E778DAA0002C99C /* Frameworks */,
 				96FB680F1E778DAA0002C99C /* Resources */,
+				DBD029E7A11B10CF9A403E63 /* [CP] Embed Pods Frameworks */,
+				7A6934DB59928B8E4085F970 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +236,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A6934DB59928B8E4085F970 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingVenuesTests/Pods-WeddingVenuesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CACC22FA79DD80401FC289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D54D0D4ECE51B665E38DCFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1D40A02F55AB3FACFA64E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB11CF687C60200A3C90CCE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingVenues/Pods-WeddingVenues-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD029E7A11B10CF9A403E63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingVenuesTests/Pods-WeddingVenuesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96FB67F61E778DAA0002C99C /* Sources */ = {
@@ -341,6 +472,7 @@
 		};
 		96FB681B1E778DAA0002C99C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC4060AE9F2AC14F4EF6B22 /* Pods-WeddingVenues.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
@@ -354,6 +486,7 @@
 		};
 		96FB681C1E778DAA0002C99C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B171CA9CD8D0A3ABF5A77FBA /* Pods-WeddingVenues.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
@@ -367,6 +500,7 @@
 		};
 		96FB681E1E778DAA0002C99C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F8B408962A20307304F88D /* Pods-WeddingVenuesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +516,7 @@
 		};
 		96FB681F1E778DAA0002C99C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D685FE142CFACC75D44C43 /* Pods-WeddingVenuesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
