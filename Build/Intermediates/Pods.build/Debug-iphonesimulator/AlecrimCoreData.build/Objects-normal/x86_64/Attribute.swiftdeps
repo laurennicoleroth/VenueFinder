@@ -15,17 +15,17 @@ provides-member:
 - ["V15AlecrimCoreData9Attribute", "sum"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "UnicodeScalarType"
 - "Attribute"
 - "NamedAttributeProtocol"
 - "NullableAttribute"
-- "AssignmentPrecedence"
-- !private "+"
-- "Collection"
-- "String"
-- "AttributeProtocol"
 - !private "StringLiteralType"
+- "String"
+- "Collection"
+- "AttributeProtocol"
+- "AssignmentPrecedence"
 - "NullableAttributeProtocol"
-- !private "UnicodeScalarType"
+- !private "+"
 - "Int"
 depends-member:
 - !private ["Ps9AnyObject", "init"]

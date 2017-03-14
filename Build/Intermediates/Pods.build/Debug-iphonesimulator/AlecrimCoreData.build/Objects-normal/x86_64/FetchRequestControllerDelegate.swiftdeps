@@ -21,23 +21,23 @@ provides-member:
 - ["C15AlecrimCoreData22FetchRequestController", "sectionIndexTitle"]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSFetchedResultsSectionInfo"
 - "Array"
-- "NSFetchedResultsControllerDelegate"
 - "NSFetchRequestResult"
-- "NSManagedObject"
+- "FetchRequestControllerSection"
 - "String"
 - "FetchRequestController"
-- "NSFetchedResultsChangeType"
+- "NSFetchedResultsSectionInfo"
+- "NSManagedObject"
+- "NSFetchedResultsControllerDelegate"
 - "FetchRequestControllerDelegate"
-- "FetchRequestControllerSection"
 - "Void"
 - "Int"
-- "CastingPrecedence"
-- "AssignmentPrecedence"
-- "NSObject"
-- "IndexPath"
 - "NSFetchedResultsController"
+- "CastingPrecedence"
+- "IndexPath"
+- "AssignmentPrecedence"
+- "NSFetchedResultsChangeType"
+- "NSObject"
 depends-member:
 - ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "FetchRequestController"]

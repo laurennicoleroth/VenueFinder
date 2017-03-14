@@ -10,22 +10,22 @@ provides-member:
 - ["V15AlecrimCoreData5Table", "select"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "String"
 - "NSEntityDescription"
-- "NSDictionary"
-- "NSPredicate"
-- "AttributeQueryProtocol"
 - "NSSortDescriptor"
-- "PersistentContainerOptions"
+- "String"
+- "NSPredicate"
 - "BooleanLiteralType"
-- "FloatLiteralType"
-- "IntegerLiteralType"
+- "AttributeQueryProtocol"
 - "AttributeQuery"
 - "AttributeProtocol"
-- "NSManagedObjectContext"
+- "FloatLiteralType"
+- "IntegerLiteralType"
 - "AssignmentPrecedence"
+- "Int"
 - "Table"
+- "NSManagedObjectContext"
+- "NSDictionary"
+- "PersistentContainerOptions"
 depends-member:
 - ["Vs11AnyIterator", "Element"]
 - ["Vs11AnySequence", "Iterator"]

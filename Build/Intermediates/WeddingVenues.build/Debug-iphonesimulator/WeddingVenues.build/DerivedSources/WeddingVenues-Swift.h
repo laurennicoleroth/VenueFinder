@@ -160,7 +160,7 @@ SWIFT_CLASS_NAMED("Venue")
 @property (nonatomic) double latitude;
 @property (nonatomic) double longitude;
 @property (nonatomic, copy) NSString * _Nullable name;
-@property (nonatomic) int16_t phone;
+@property (nonatomic, copy) NSString * _Nullable phoneNumber;
 @end
 
 @class CLLocationManager;
@@ -188,6 +188,7 @@ SWIFT_CLASS("_TtC13WeddingVenues14ViewController")
 @property (nonatomic, strong) UITextView * _Nullable resultView;
 @property (nonatomic, copy) NSArray<GMSPlace *> * _Nonnull venuePlaces;
 - (void)viewDidLoad;
+- (void)getVenues;
 - (void)addMarkerToMapWithPlace:(GMSPlace * _Nonnull)place;
 - (void)setupMap;
 - (IBAction)addAVenueTouched:(id _Nonnull)sender;

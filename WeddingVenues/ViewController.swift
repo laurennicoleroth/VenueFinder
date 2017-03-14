@@ -13,7 +13,10 @@ import AlecrimCoreData
 
 class ViewController: UIViewController {
     
-    var person = (name: "Degas House", address: "2306 Esplanade Ave, New Orleans, LA 70119", district: "7th Ward")
+    var venues = [
+        (name: "Degas House", address: "2306 Esplanade Ave, New Orleans, LA 70119", district: "7th Ward"),
+        (name: "Benachi House", address: "2257 Bayou Rd, New Orleans, LA 70119", district: "7th Ward"),
+    ]
 
     @IBOutlet weak var mapView: GMSMapView!
     
@@ -38,6 +41,8 @@ class ViewController: UIViewController {
         
         setupMap()
         
+        getVenues()
+        
         let camera = GMSCameraPosition.camera(withLatitude: startingPoint.latitude,
                                               longitude: startingPoint.longitude,
                                               zoom: zoomLevel)
@@ -49,6 +54,20 @@ class ViewController: UIViewController {
         marker.title = "The Elms Mansion"
         marker.map = mapView
 
+    }
+    
+    func getVenues() {
+        print("Getting Venues")
+        let manager = WeddingVenueManager.sharedInstance
+        print("Venue count: ", manager.weddingVenues.count)
+        
+        for venue in venueManager.weddingVenues {
+            let marker = GMSMarker()
+            marker.position = CLLocationCoordinate2DMake(venue.latitude, venue.longitude)
+            marker.title = venue.name
+            marker.snippet = venue.address
+            marker.map = mapView
+        }
     }
     
     func addMarkerToMap(place: GMSPlace) {
@@ -148,6 +167,10 @@ extension ViewController: GMSAutocompleteViewControllerDelegate {
         // TODO: Add code to get address components from the selected place.
         let manager = WeddingVenueManager.sharedInstance
         manager.addVenue(place: place)
+        
+        getVenues()
+        
+        addMarkerToMap(place: place)
         
         // Close the autocomplete widget.
         dismiss(animated: true, completion: nil)

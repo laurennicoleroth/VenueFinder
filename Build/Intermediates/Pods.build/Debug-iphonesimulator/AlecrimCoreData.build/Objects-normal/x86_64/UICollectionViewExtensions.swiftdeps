@@ -6,18 +6,18 @@ provides-member:
 - ["C15AlecrimCoreData22FetchRequestController", "bind"]
 provides-dynamic-lookup:
 depends-top-level:
+- "IndexPath"
 - !private "!="
-- "FetchRequestController"
-- !private "&&"
 - !private ">"
 - "UICollectionView"
-- !private "BooleanLiteralType"
-- "UICollectionViewCell"
+- "FetchRequestController"
 - !private "IndexSet"
+- !private "&&"
 - "Void"
 - !private "NSMutableIndexSet"
+- !private "BooleanLiteralType"
+- "UICollectionViewCell"
 - !private "TernaryPrecedence"
-- "IndexPath"
 - !private "CastingPrecedence"
 - !private "+"
 - !private "AssignmentPrecedence"

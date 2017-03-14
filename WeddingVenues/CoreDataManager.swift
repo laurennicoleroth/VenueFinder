@@ -25,7 +25,10 @@ class WeddingVenueManager {
             
             for weddingVenue in cWeddingVenues {
                 let wv = WeddingVenue()
-                wv.name = "moopy"
+                wv.name = weddingVenue.name!
+                wv.address = weddingVenue.address!
+                wv.latitude = weddingVenue.latitude
+                wv.longitude = weddingVenue.longitude
                 cVenues.append(wv)
             }
             return cVenues
@@ -47,7 +50,17 @@ class WeddingVenueManager {
         venue.address = place.formattedAddress
         venue.latitude = place.coordinate.latitude
         venue.longitude = place.coordinate.longitude
-        venue.name = place.name
+        venue.name = place.description
+        venue.phoneNumber = place.phoneNumber
+        
+        print("Venue added: ", venue)
+        do {
+            try context.save()
+        }
+        catch {
+            // do a nice error handling here
+            print("Whoops")
+        }
     }
     
 }

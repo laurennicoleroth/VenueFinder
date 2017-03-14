@@ -7,12 +7,12 @@ provides-member:
 - ["O15AlecrimCoreData20AlecrimCoreDataError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Never"
-- !private "Swift"
 - "Error"
 - "String"
 - "AlecrimCoreDataError"
+- "Never"
 - "StringLiteralType"
+- !private "Swift"
 depends-member:
 - ["O15AlecrimCoreData20AlecrimCoreDataError", "Error"]
 - ["O15AlecrimCoreData20AlecrimCoreDataError", "Never"]

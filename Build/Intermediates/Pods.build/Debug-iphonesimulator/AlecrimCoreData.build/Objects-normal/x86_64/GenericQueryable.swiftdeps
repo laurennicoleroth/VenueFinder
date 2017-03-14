@@ -20,14 +20,14 @@ provides-member:
 - ["P15AlecrimCoreData16GenericQueryable", "makeIterator"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AnyIterator"
-- "Queryable"
 - "GenericQueryable"
-- "BooleanLiteralType"
 - "NSPredicate"
-- "Bool"
 - "AttributeProtocol"
+- "BooleanLiteralType"
+- "Queryable"
 - "Int"
+- "Bool"
+- "AnyIterator"
 depends-member:
 - ["Vs11AnyIterator", "deinit"]
 - !private ["Vs11AnyIterator", "init"]

@@ -21,6 +21,6 @@ extension Venue {
     @NSManaged public var latitude: Double
     @NSManaged public var longitude: Double
     @NSManaged public var name: String?
-    @NSManaged public var phone: Int16
+    @NSManaged public var phoneNumber: String?
 
 }

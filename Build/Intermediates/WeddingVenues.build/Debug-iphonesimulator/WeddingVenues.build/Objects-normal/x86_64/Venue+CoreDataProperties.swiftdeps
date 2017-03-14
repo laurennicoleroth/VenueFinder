@@ -8,20 +8,19 @@ provides-member:
 - ["C13WeddingVenues5Venue", "latitude"]
 - ["C13WeddingVenues5Venue", "longitude"]
 - ["C13WeddingVenues5Venue", "name"]
-- ["C13WeddingVenues5Venue", "phone"]
+- ["C13WeddingVenues5Venue", "phoneNumber"]
 provides-dynamic-lookup:
-- "latitude"
-- "name"
-- "longitude"
-- "phone"
 - "address"
+- "phoneNumber"
+- "longitude"
+- "name"
+- "latitude"
 depends-top-level:
-- !private "StringLiteralType"
 - "Venue"
-- "NSFetchRequest"
-- "Double"
-- "Int16"
 - "String"
+- "Double"
+- "NSFetchRequest"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "NSFetchRequest"]
 - ["Ps9AnyObject", "address"]
@@ -30,7 +29,7 @@ depends-member:
 - ["Ps9AnyObject", "latitude"]
 - ["Ps9AnyObject", "longitude"]
 - ["Ps9AnyObject", "name"]
-- ["Ps9AnyObject", "phone"]
+- ["Ps9AnyObject", "phoneNumber"]
 - !private ["Ps7CVarArg", "NSFetchRequest"]
 - ["Ps7CVarArg", "address"]
 - ["Ps7CVarArg", "fetchRequest"]
@@ -38,7 +37,7 @@ depends-member:
 - ["Ps7CVarArg", "latitude"]
 - ["Ps7CVarArg", "longitude"]
 - ["Ps7CVarArg", "name"]
-- ["Ps7CVarArg", "phone"]
+- ["Ps7CVarArg", "phoneNumber"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
 - ["Ps28CustomDebugStringConvertible", "address"]
@@ -47,7 +46,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "latitude"]
 - ["Ps28CustomDebugStringConvertible", "longitude"]
 - ["Ps28CustomDebugStringConvertible", "name"]
-- ["Ps28CustomDebugStringConvertible", "phone"]
+- ["Ps28CustomDebugStringConvertible", "phoneNumber"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
@@ -57,7 +56,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "latitude"]
 - ["Ps23CustomStringConvertible", "longitude"]
 - ["Ps23CustomStringConvertible", "name"]
-- ["Ps23CustomStringConvertible", "phone"]
+- ["Ps23CustomStringConvertible", "phoneNumber"]
 - !private ["Ps9Equatable", "NSFetchRequest"]
 - ["Ps9Equatable", "address"]
 - ["Ps9Equatable", "fetchRequest"]
@@ -65,7 +64,7 @@ depends-member:
 - ["Ps9Equatable", "latitude"]
 - ["Ps9Equatable", "longitude"]
 - ["Ps9Equatable", "name"]
-- ["Ps9Equatable", "phone"]
+- ["Ps9Equatable", "phoneNumber"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
@@ -77,7 +76,7 @@ depends-member:
 - ["Ps8Hashable", "latitude"]
 - ["Ps8Hashable", "longitude"]
 - ["Ps8Hashable", "name"]
-- ["Ps8Hashable", "phone"]
+- ["Ps8Hashable", "phoneNumber"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "init"]
@@ -90,9 +89,8 @@ depends-member:
 - ["PSo20NSFetchRequestResult", "latitude"]
 - ["PSo20NSFetchRequestResult", "longitude"]
 - ["PSo20NSFetchRequestResult", "name"]
-- ["PSo20NSFetchRequestResult", "phone"]
+- ["PSo20NSFetchRequestResult", "phoneNumber"]
 - ["CSo15NSManagedObject", "Double"]
-- ["CSo15NSManagedObject", "Int16"]
 - ["CSo15NSManagedObject", "NSFetchRequest"]
 - ["CSo15NSManagedObject", "String"]
 - ["CSo15NSManagedObject", "Venue"]
@@ -101,10 +99,9 @@ depends-member:
 - ["CSo15NSManagedObject", "latitude"]
 - ["CSo15NSManagedObject", "longitude"]
 - ["CSo15NSManagedObject", "name"]
-- ["CSo15NSManagedObject", "phone"]
+- ["CSo15NSManagedObject", "phoneNumber"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Double"]
-- ["CSo8NSObject", "Int16"]
 - ["CSo8NSObject", "NSFetchRequest"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "Venue"]
@@ -114,7 +111,7 @@ depends-member:
 - ["CSo8NSObject", "latitude"]
 - ["CSo8NSObject", "longitude"]
 - ["CSo8NSObject", "name"]
-- ["CSo8NSObject", "phone"]
+- ["CSo8NSObject", "phoneNumber"]
 - !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
 - ["PSo16NSObjectProtocol", "address"]
 - ["PSo16NSObjectProtocol", "fetchRequest"]
@@ -122,7 +119,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "latitude"]
 - ["PSo16NSObjectProtocol", "longitude"]
 - ["PSo16NSObjectProtocol", "name"]
-- ["PSo16NSObjectProtocol", "phone"]
+- ["PSo16NSObjectProtocol", "phoneNumber"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["SS", "deinit"]
@@ -131,7 +128,6 @@ depends-member:
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
 - ["C13WeddingVenues5Venue", "Double"]
-- ["C13WeddingVenues5Venue", "Int16"]
 - ["C13WeddingVenues5Venue", "NSFetchRequest"]
 - ["C13WeddingVenues5Venue", "String"]
 - ["C13WeddingVenues5Venue", "Venue"]
@@ -141,7 +137,7 @@ depends-member:
 - ["C13WeddingVenues5Venue", "latitude"]
 - ["C13WeddingVenues5Venue", "longitude"]
 - ["C13WeddingVenues5Venue", "name"]
-- ["C13WeddingVenues5Venue", "phone"]
+- ["C13WeddingVenues5Venue", "phoneNumber"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -154,7 +150,7 @@ depends-member:
 - ["Ps9_Hashable", "latitude"]
 - ["Ps9_Hashable", "longitude"]
 - ["Ps9_Hashable", "name"]
-- ["Ps9_Hashable", "phone"]
+- ["Ps9_Hashable", "phoneNumber"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -275,4 +271,4 @@ depends-external:
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Headers/AlecrimCoreData-umbrella.h"
 - "/Users/laurennicoleroth/Development/iOS/WeddingVenues/Build/Products/Debug-iphonesimulator/AlecrimCoreData/AlecrimCoreData.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "e20215e0e1896ea15edc9cd42da4e749"
+interface-hash: "b4f435e3570720e792d1cc31e3f7d783"

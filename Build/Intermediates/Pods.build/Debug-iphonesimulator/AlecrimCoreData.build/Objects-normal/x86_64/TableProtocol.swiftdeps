@@ -14,20 +14,20 @@ provides-member:
 - ["P15AlecrimCoreData13TableProtocol", "toFetchRequest"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSManagedObjectID"
-- "NSFetchRequestResult"
-- !private ">"
-- !private "AlecrimCoreDataError"
-- !private "&&"
+- "CoreDataQueryable"
 - "NSFetchRequest"
 - "BooleanLiteralType"
-- "NSComparisonPredicate"
+- !private ">"
 - "Bool"
+- "NSComparisonPredicate"
+- !private "NSManagedObjectID"
 - "TernaryPrecedence"
 - "CastingPrecedence"
-- "CoreDataQueryable"
+- !private "&&"
 - "TableProtocol"
+- !private "AlecrimCoreDataError"
 - "AssignmentPrecedence"
+- "NSFetchRequestResult"
 - "NSManagedObject"
 depends-member:
 - !private ["O15AlecrimCoreData20AlecrimCoreDataError", "handleError"]

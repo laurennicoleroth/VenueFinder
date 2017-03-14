@@ -11,22 +11,22 @@ provides-member:
 - ["P15AlecrimCoreData22AttributeQueryProtocol", "toFetchRequest"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSFetchRequestResultType"
-- "Bool"
-- "String"
-- !private "BooleanLiteralType"
-- !private ">"
-- "AttributeQueryProtocol"
-- "CoreDataQueryable"
-- !private "AlecrimCoreDataError"
 - "TernaryPrecedence"
 - "NSDictionary"
-- "NSFetchRequestResult"
-- !private "&&"
+- "String"
+- "NSFetchRequest"
+- !private "NSFetchRequestResultType"
+- !private ">"
 - "AssignmentPrecedence"
 - !private "=="
-- "NSFetchRequest"
+- !private "&&"
+- !private "AlecrimCoreDataError"
+- "NSFetchRequestResult"
 - "CastingPrecedence"
+- "AttributeQueryProtocol"
+- "CoreDataQueryable"
+- !private "BooleanLiteralType"
+- "Bool"
 depends-member:
 - !private ["O15AlecrimCoreData20AlecrimCoreDataError", "deinit"]
 - !private ["O15AlecrimCoreData20AlecrimCoreDataError", "handleError"]

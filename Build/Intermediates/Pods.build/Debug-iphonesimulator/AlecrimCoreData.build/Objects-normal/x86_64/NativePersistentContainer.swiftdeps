@@ -8,27 +8,27 @@ provides-member:
 - ["C15AlecrimCoreData25NativePersistentContainer", ""]
 - ["CSo28NSPersistentStoreDescription", ""]
 provides-dynamic-lookup:
-- "newBackgroundContext"
 - "configureDefaults"
-- "viewContext"
 - "performBackgroundTask"
+- "newBackgroundContext"
+- "viewContext"
 depends-top-level:
-- "PersistentStoreDescription"
 - !private "StringLiteralType"
-- "NSPersistentContainer"
-- "Error"
-- !private "BooleanLiteralType"
-- "String"
-- "Void"
-- !private "fatalError"
-- "NativePersistentContainer"
-- "NSPersistentStoreDescription"
+- "UnderlyingPersistentContainer"
 - "NSManagedObjectModel"
 - !private "NSMergeByPropertyObjectTrumpMergePolicy"
+- !private "fatalError"
+- !private "BooleanLiteralType"
+- "NSPersistentContainer"
+- "NativePersistentContainer"
+- "String"
+- "Error"
 - "NSManagedObjectContext"
+- "PersistentStoreDescription"
+- "NSPersistentStoreDescription"
 - "CastingPrecedence"
+- "Void"
 - "AssignmentPrecedence"
-- "UnderlyingPersistentContainer"
 depends-member:
 - !private ["Ps9AnyObject", "NSMergeByPropertyObjectTrumpMergePolicy"]
 - ["Ps9AnyObject", "_viewContext"]

@@ -12,22 +12,22 @@ provides-member:
 - ["P15AlecrimCoreData9Queryable", "filter"]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSPredicate"
 - "Bool"
+- "NSPredicate"
 - "String"
-- !private "Array"
 - !private "+="
-- "BooleanLiteralType"
-- !private "NSCompoundPredicate"
 - "AttributeProtocol"
-- !private "NSString"
-- "Queryable"
-- "Enumerable"
-- "NSSortDescriptor"
+- !private "NSCompoundPredicate"
+- "BooleanLiteralType"
+- !private "Array"
 - !private "PersistentContainerOptions"
+- !private "NSString"
+- "NSSortDescriptor"
+- "Queryable"
 - "NSComparisonPredicate"
-- "AssignmentPrecedence"
+- "Enumerable"
 - !private "&&"
+- "AssignmentPrecedence"
 - !private "!="
 depends-member:
 - ["Ps9AnyObject", "Options"]

@@ -7,10 +7,10 @@ provides-member:
 - ["C13WeddingVenues12WeddingVenue", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "WeddingVenue"
+- "Double"
 - "String"
 - "StringLiteralType"
-- "Double"
-- "WeddingVenue"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]

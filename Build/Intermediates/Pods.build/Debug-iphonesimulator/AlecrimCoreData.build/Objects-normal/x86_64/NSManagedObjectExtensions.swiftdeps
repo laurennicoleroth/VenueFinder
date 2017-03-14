@@ -8,22 +8,22 @@ provides-member:
 - ["CSo15NSManagedObject", "refresh"]
 - ["CSo15NSManagedObject", "isIn"]
 provides-dynamic-lookup:
-- "inContext"
 - "delete"
-- "isIn"
 - "refresh"
+- "isIn"
+- "inContext"
 depends-top-level:
-- "NSManagedObjectContext"
+- !private "StringLiteralType"
+- "Bool"
+- "NSManagedObject"
+- "BooleanLiteralType"
+- !private "NSExpression"
 - "NSComparisonPredicate"
 - !private "unsafeBitCast"
-- !private "==="
 - "Set"
+- "NSManagedObjectContext"
+- !private "==="
 - !private "Array"
-- !private "NSExpression"
-- "Bool"
-- !private "StringLiteralType"
-- "BooleanLiteralType"
-- "NSManagedObject"
 depends-member:
 - !private ["Ps9AnyObject", "NSComparisonPredicate"]
 - !private ["Ps9AnyObject", "NSExpression"]

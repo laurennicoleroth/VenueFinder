@@ -13,13 +13,13 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Bool"
 - !private "!"
-- "Sequence"
-- "Enumerable"
 - "Int"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
+- "Enumerable"
 - "AssignmentPrecedence"
 - !private "=="
+- "Sequence"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
 depends-member:
 - ["Sb", "deinit"]
 - ["P15AlecrimCoreData10Enumerable", "Bool"]

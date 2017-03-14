@@ -6,11 +6,11 @@ provides-member:
 - ["P15AlecrimCoreData17CoreDataQueryable", "toFetchedResultsController"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "NSFetchedResultsController"
 - "CoreDataQueryable"
 - !private "NSFetchRequest"
+- "NSFetchedResultsController"
 - "CastingPrecedence"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps7CVarArg", "init"]
